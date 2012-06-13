@@ -40,6 +40,9 @@ $ prefix-css .slate  slate.min.css  > slate.prefixed.min.css
 
 
 ## Links
+
  [Bootswatchr](http://bootswatchr.com/) Generate your own Bootstrap themes.
- [Bootswatchr(http://bootswatch.com/) Some free Bootstrap themes.
+ 
+ [Bootswatch](http://bootswatch.com/) Some free Bootstrap themes.
+ 
  [Bootstrap](http://twitter.github.com/bootstrap) Twitter Bootstrap
