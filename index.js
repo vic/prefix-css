@@ -9,8 +9,10 @@ var fs = require('fs')
 
 program
   .version(pkg.version)
-  .usage('css-prefix <css-file ...>')
+  .usage('[options] prefix <file.css ...>' +
+         "\n\n `prefix` can be any valid css selector, like a class or id.")
   .option('-j --join', 'Dont separate rules by new-line')
+  .option('-D --no-directives', 'Dont output css directives: @import, @face, etc')
   .parse(process.argv)
 
 if (program.join) sep = ""
@@ -36,8 +38,8 @@ var printRules = function(rules) {
   for (var i = 0; i < rules.length; i++){
     var rule = rules[i]
       , selectors = []
-    if (rule.directive) {
-      process.stdout.write(''+rule.directive.name+rule.directive.body+sep)
+    if (rule.directive && program.directives) {
+      process.stdout.write(''+rule.directive+rule.body+sep)
     } else if (rule.media) {
       process.stdout.write(rule.media+"{"+sep)
       printRules(rule.rules)
