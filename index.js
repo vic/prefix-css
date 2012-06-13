@@ -1,13 +1,15 @@
 #!/usr/bin/env node
 
 var fs = require('fs')
+  , path = require('path')
   , program = require('commander')
   , parser = require('./parser.js')
   , sep = "\n"
+  , pkg = JSON.parse(fs.readFileSync(path.join(__dirname, 'package.json')))
 
 program
-  .version('0.0.1')
-  .usage('prefix <css-file ...>')
+  .version(pkg.version)
+  .usage('css-prefix <css-file ...>')
   .option('-j --join', 'Dont separate rules by new-line')
   .parse(process.argv)
 

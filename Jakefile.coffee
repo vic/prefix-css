@@ -9,7 +9,7 @@ path    = require 'path'
 pkgJSON = JSON.parse fs.readFileSync path.join(__dirname, 'package.json'), 'utf-8'
 
 files = [
-  'index.js', 'parser.js'
+  'index.js', 'parser.js', 'package.json'
 ]
   
 new jake.PackageTask pkgJSON.name, pkgJSON.version, ->
