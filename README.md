@@ -2,7 +2,7 @@
 
 A tool for prefixing all rules from css-files with some selector.
 
-[DEMO](https://vic.github.com/prefix-css)
+[DEMO](http://vic.github.com/prefix-css)
 
 ### Installation
 
@@ -36,5 +36,5 @@ $ prefix-css .slate  slate.min.css  > slate.prefixed.min.css
 </div>
 ```
 
-[see it in action](https://vic.github.com/prefix-css)
+[see it in action](http://vic.github.com/prefix-css)
 
