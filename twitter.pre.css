@@ -1,0 +1,703 @@
+.twitter article, .twitter aside, .twitter details, .twitter figcaption, .twitter figure, .twitter footer, .twitter header, .twitter hgroup, .twitter nav, .twitter section{display:block;}
+.twitter audio, .twitter canvas, .twitter video{display:inline-block;*display:inline;*zoom:1;}
+.twitter audio:not([controls]){display:none;}
+.twitter html{font-size:100%;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;}
+.twitter a:focus{outline:thin dotted #333;outline:5px auto -webkit-focus-ring-color;outline-offset:-2px;}
+.twitter a:hover, .twitter a:active{outline:0;}
+.twitter sub, .twitter sup{position:relative;font-size:75%;line-height:0;vertical-align:baseline;}
+.twitter sup{top:-0.5em;}
+.twitter sub{bottom:-0.25em;}
+.twitter img{max-width:100%;height:auto;border:0;-ms-interpolation-mode:bicubic;}
+.twitter button, .twitter input, .twitter select, .twitter textarea{margin:0;font-size:100%;vertical-align:middle;}
+.twitter button, .twitter input{*overflow:visible;line-height:normal;}
+.twitter button::-moz-focus-inner, .twitter input::-moz-focus-inner{padding:0;border:0;}
+.twitter button, .twitter input[type="button"], .twitter input[type="reset"], .twitter input[type="submit"]{cursor:pointer;-webkit-appearance:button;}
+.twitter input[type="search"]{-webkit-appearance:textfield;-webkit-box-sizing:content-box;-moz-box-sizing:content-box;box-sizing:content-box;}
+.twitter input[type="search"]::-webkit-search-decoration, .twitter input[type="search"]::-webkit-search-cancel-button{-webkit-appearance:none;}
+.twitter textarea{overflow:auto;vertical-align:top;}
+.twitter .clearfix{*zoom:1;}
+.twitter .clearfix:before, .twitter .clearfix:after{display:table;content:"";}
+.twitter .clearfix:after{clear:both;}
+.twitter body{margin:0;font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:13px;line-height:18px;color:#333333;background-color:#ffffff;}
+.twitter a{color:#0088cc;text-decoration:none;}
+.twitter a:hover{color:#005580;text-decoration:underline;}
+.twitter .row{margin-left:-20px;*zoom:1;}
+.twitter .row:before, .twitter .row:after{display:table;content:"";}
+.twitter .row:after{clear:both;}
+.twitter [class*="span"]{float:left;margin-left:20px;}
+.twitter .span1{width:60px;}
+.twitter .span2{width:140px;}
+.twitter .span3{width:220px;}
+.twitter .span4{width:300px;}
+.twitter .span5{width:380px;}
+.twitter .span6{width:460px;}
+.twitter .span7{width:540px;}
+.twitter .span8{width:620px;}
+.twitter .span9{width:700px;}
+.twitter .span10{width:780px;}
+.twitter .span11{width:860px;}
+.twitter .span12, .twitter .container{width:940px;}
+.twitter .offset1{margin-left:100px;}
+.twitter .offset2{margin-left:180px;}
+.twitter .offset3{margin-left:260px;}
+.twitter .offset4{margin-left:340px;}
+.twitter .offset5{margin-left:420px;}
+.twitter .offset6{margin-left:500px;}
+.twitter .offset7{margin-left:580px;}
+.twitter .offset8{margin-left:660px;}
+.twitter .offset9{margin-left:740px;}
+.twitter .offset10{margin-left:820px;}
+.twitter .offset11{margin-left:900px;}
+.twitter .row-fluid{width:100%;*zoom:1;}
+.twitter .row-fluid:before, .twitter .row-fluid:after{display:table;content:"";}
+.twitter .row-fluid:after{clear:both;}
+.twitter .row-fluid>[class*="span"]{float:left;margin-left:2.127659574%;}
+.twitter .row-fluid>[class*="span"]:first-child{margin-left:0;}
+.twitter .row-fluid>.span1{width:6.382978723%;}
+.twitter .row-fluid>.span2{width:14.89361702%;}
+.twitter .row-fluid>.span3{width:23.404255317%;}
+.twitter .row-fluid>.span4{width:31.914893614%;}
+.twitter .row-fluid>.span5{width:40.425531911%;}
+.twitter .row-fluid>.span6{width:48.93617020799999%;}
+.twitter .row-fluid>.span7{width:57.446808505%;}
+.twitter .row-fluid>.span8{width:65.95744680199999%;}
+.twitter .row-fluid>.span9{width:74.468085099%;}
+.twitter .row-fluid>.span10{width:82.97872339599999%;}
+.twitter .row-fluid>.span11{width:91.489361693%;}
+.twitter .row-fluid>.span12{width:99.99999998999999%;}
+.twitter .container{width:940px;margin-left:auto;margin-right:auto;*zoom:1;}
+.twitter .container:before, .twitter .container:after{display:table;content:"";}
+.twitter .container:after{clear:both;}
+.twitter .container-fluid{padding-left:20px;padding-right:20px;*zoom:1;}
+.twitter .container-fluid:before, .twitter .container-fluid:after{display:table;content:"";}
+.twitter .container-fluid:after{clear:both;}
+.twitter p{margin:0 0 9px;font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:13px;line-height:18px;}
+.twitter p small{font-size:11px;color:#999999;}
+.twitter .lead{margin-bottom:18px;font-size:20px;font-weight:200;line-height:27px;}
+.twitter h1, .twitter h2, .twitter h3, .twitter h4, .twitter h5, .twitter h6{margin:0;font-weight:bold;color:#333333;text-rendering:optimizelegibility;}
+.twitter h1 small, .twitter h2 small, .twitter h3 small, .twitter h4 small, .twitter h5 small, .twitter h6 small{font-weight:normal;color:#999999;}
+.twitter h1{font-size:30px;line-height:36px;}
+.twitter h1 small{font-size:18px;}
+.twitter h2{font-size:24px;line-height:36px;}
+.twitter h2 small{font-size:18px;}
+.twitter h3{line-height:27px;font-size:18px;}
+.twitter h3 small{font-size:14px;}
+.twitter h4, .twitter h5, .twitter h6{line-height:18px;}
+.twitter h4{font-size:14px;}
+.twitter h4 small{font-size:12px;}
+.twitter h5{font-size:12px;}
+.twitter h6{font-size:11px;color:#999999;text-transform:uppercase;}
+.twitter .page-header{padding-bottom:17px;margin:18px 0;border-bottom:1px solid #eeeeee;}
+.twitter .page-header h1{line-height:1;}
+.twitter ul, .twitter ol{padding:0;margin:0 0 9px 25px;}
+.twitter ul ul, .twitter ul ol, .twitter ol ol, .twitter ol ul{margin-bottom:0;}
+.twitter ul{list-style:disc;}
+.twitter ol{list-style:decimal;}
+.twitter li{line-height:18px;}
+.twitter ul.unstyled, .twitter ol.unstyled{margin-left:0;list-style:none;}
+.twitter dl{margin-bottom:18px;}
+.twitter dt, .twitter dd{line-height:18px;}
+.twitter dt{font-weight:bold;}
+.twitter dd{margin-left:9px;}
+.twitter hr{margin:18px 0;border:0;border-top:1px solid #eeeeee;border-bottom:1px solid #ffffff;}
+.twitter strong{font-weight:bold;}
+.twitter em{font-style:italic;}
+.twitter .muted{color:#999999;}
+.twitter abbr{font-size:90%;text-transform:uppercase;border-bottom:1px dotted #ddd;cursor:help;}
+.twitter blockquote{padding:0 0 0 15px;margin:0 0 18px;border-left:5px solid #eeeeee;}
+.twitter blockquote p{margin-bottom:0;font-size:16px;font-weight:300;line-height:22.5px;}
+.twitter blockquote small{display:block;line-height:18px;color:#999999;}
+.twitter blockquote small:before{content:'\2014 \00A0';}
+.twitter blockquote.pull-right{float:right;padding-left:0;padding-right:15px;border-left:0;border-right:5px solid #eeeeee;}
+.twitter blockquote.pull-right p, .twitter blockquote.pull-right small{text-align:right;}
+.twitter q:before, .twitter q:after, .twitter blockquote:before, .twitter blockquote:after{content:"";}
+.twitter address{display:block;margin-bottom:18px;line-height:18px;font-style:normal;}
+.twitter small{font-size:100%;}
+.twitter cite{font-style:normal;}
+.twitter code, .twitter pre{padding:0 3px 2px;font-family:Menlo,Monaco,"Courier New",monospace;font-size:12px;color:#333333;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;}
+.twitter code{padding:3px 4px;color:#d14;background-color:#f7f7f9;border:1px solid #e1e1e8;}
+.twitter pre{display:block;padding:8.5px;margin:0 0 9px;font-size:12px;line-height:18px;background-color:#f5f5f5;border:1px solid #ccc;border:1px solid rgba(0, 0, 0, 0.15);-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;white-space:pre;white-space:pre-wrap;word-break:break-all;word-wrap:break-word;}
+.twitter pre.prettyprint{margin-bottom:18px;}
+.twitter pre code{padding:0;color:inherit;background-color:transparent;border:0;}
+.twitter .pre-scrollable{max-height:340px;overflow-y:scroll;}
+.twitter form{margin:0 0 18px;}
+.twitter fieldset{padding:0;margin:0;border:0;}
+.twitter legend{display:block;width:100%;padding:0;margin-bottom:27px;font-size:19.5px;line-height:36px;color:#333333;border:0;border-bottom:1px solid #eee;}
+.twitter legend small{font-size:13.5px;color:#999999;}
+.twitter label, .twitter input, .twitter button, .twitter select, .twitter textarea{font-size:13px;font-weight:normal;line-height:18px;}
+.twitter input, .twitter button, .twitter select, .twitter textarea{font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;}
+.twitter label{display:block;margin-bottom:5px;color:#333333;}
+.twitter input, .twitter textarea, .twitter select, .twitter .uneditable-input{display:inline-block;width:210px;height:18px;padding:4px;margin-bottom:9px;font-size:13px;line-height:18px;color:#555555;border:1px solid #ccc;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;}
+.twitter .uneditable-textarea{width:auto;height:auto;}
+.twitter label input, .twitter label textarea, .twitter label select{display:block;}
+.twitter input[type="image"], .twitter input[type="checkbox"], .twitter input[type="radio"]{width:auto;height:auto;padding:0;margin:3px 0;*margin-top:0;line-height:normal;cursor:pointer;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;border:0 \9;}
+.twitter input[type="image"]{border:0;}
+.twitter input[type="file"]{width:auto;padding:initial;line-height:initial;border:initial;background-color:#ffffff;background-color:initial;-webkit-box-shadow:none;-moz-box-shadow:none;box-shadow:none;}
+.twitter input[type="button"], .twitter input[type="reset"], .twitter input[type="submit"]{width:auto;height:auto;}
+.twitter select, .twitter input[type="file"]{height:28px;*margin-top:4px;line-height:28px;}
+.twitter input[type="file"]{line-height:18px \9;}
+.twitter select{width:220px;background-color:#ffffff;}
+.twitter select[multiple], .twitter select[size]{height:auto;}
+.twitter input[type="image"]{-webkit-box-shadow:none;-moz-box-shadow:none;box-shadow:none;}
+.twitter textarea{height:auto;}
+.twitter input[type="hidden"]{display:none;}
+.twitter .radio, .twitter .checkbox{padding-left:18px;}
+.twitter .radio input[type="radio"], .twitter .checkbox input[type="checkbox"]{float:left;margin-left:-18px;}
+.twitter .controls>.radio:first-child, .twitter .controls>.checkbox:first-child{padding-top:5px;}
+.twitter .radio.inline, .twitter .checkbox.inline{display:inline-block;padding-top:5px;margin-bottom:0;vertical-align:middle;}
+.twitter .radio.inline+.radio.inline, .twitter .checkbox.inline+.checkbox.inline{margin-left:10px;}
+.twitter input, .twitter textarea{-webkit-box-shadow:inset 0 1px 1px rgba(0, 0, 0, 0.075);-moz-box-shadow:inset 0 1px 1px rgba(0, 0, 0, 0.075);box-shadow:inset 0 1px 1px rgba(0, 0, 0, 0.075);-webkit-transition:border linear 0.2s,box-shadow linear 0.2s;-moz-transition:border linear 0.2s,box-shadow linear 0.2s;-ms-transition:border linear 0.2s,box-shadow linear 0.2s;-o-transition:border linear 0.2s,box-shadow linear 0.2s;transition:border linear 0.2s,box-shadow linear 0.2s;}
+.twitter input:focus, .twitter textarea:focus{border-color:rgba(82, 168, 236, 0.8);-webkit-box-shadow:inset 0 1px 1px rgba(0, 0, 0, 0.075),0 0 8px rgba(82, 168, 236, 0.6);-moz-box-shadow:inset 0 1px 1px rgba(0, 0, 0, 0.075),0 0 8px rgba(82, 168, 236, 0.6);box-shadow:inset 0 1px 1px rgba(0, 0, 0, 0.075),0 0 8px rgba(82, 168, 236, 0.6);outline:0;outline:thin dotted \9;}
+.twitter input[type="file"]:focus, .twitter input[type="radio"]:focus, .twitter input[type="checkbox"]:focus, .twitter select:focus{-webkit-box-shadow:none;-moz-box-shadow:none;box-shadow:none;outline:thin dotted #333;outline:5px auto -webkit-focus-ring-color;outline-offset:-2px;}
+.twitter .input-mini{width:60px;}
+.twitter .input-small{width:90px;}
+.twitter .input-medium{width:150px;}
+.twitter .input-large{width:210px;}
+.twitter .input-xlarge{width:270px;}
+.twitter .input-xxlarge{width:530px;}
+.twitter input[class*="span"], .twitter select[class*="span"], .twitter textarea[class*="span"], .twitter .uneditable-input{float:none;margin-left:0;}
+.twitter input.span1, .twitter textarea.span1, .twitter .uneditable-input.span1{width:50px;}
+.twitter input.span2, .twitter textarea.span2, .twitter .uneditable-input.span2{width:130px;}
+.twitter input.span3, .twitter textarea.span3, .twitter .uneditable-input.span3{width:210px;}
+.twitter input.span4, .twitter textarea.span4, .twitter .uneditable-input.span4{width:290px;}
+.twitter input.span5, .twitter textarea.span5, .twitter .uneditable-input.span5{width:370px;}
+.twitter input.span6, .twitter textarea.span6, .twitter .uneditable-input.span6{width:450px;}
+.twitter input.span7, .twitter textarea.span7, .twitter .uneditable-input.span7{width:530px;}
+.twitter input.span8, .twitter textarea.span8, .twitter .uneditable-input.span8{width:610px;}
+.twitter input.span9, .twitter textarea.span9, .twitter .uneditable-input.span9{width:690px;}
+.twitter input.span10, .twitter textarea.span10, .twitter .uneditable-input.span10{width:770px;}
+.twitter input.span11, .twitter textarea.span11, .twitter .uneditable-input.span11{width:850px;}
+.twitter input.span12, .twitter textarea.span12, .twitter .uneditable-input.span12{width:930px;}
+.twitter input[disabled], .twitter select[disabled], .twitter textarea[disabled], .twitter input[readonly], .twitter select[readonly], .twitter textarea[readonly]{background-color:#f5f5f5;border-color:#ddd;cursor:not-allowed;}
+.twitter .control-group.warning>label, .twitter .control-group.warning .help-block, .twitter .control-group.warning .help-inline{color:#c09853;}
+.twitter .control-group.warning input, .twitter .control-group.warning select, .twitter .control-group.warning textarea{color:#c09853;border-color:#c09853;}
+.twitter .control-group.warning input:focus, .twitter .control-group.warning select:focus, .twitter .control-group.warning textarea:focus{border-color:#a47e3c;-webkit-box-shadow:0 0 6px #dbc59e;-moz-box-shadow:0 0 6px #dbc59e;box-shadow:0 0 6px #dbc59e;}
+.twitter .control-group.warning .input-prepend .add-on, .twitter .control-group.warning .input-append .add-on{color:#c09853;background-color:#fcf8e3;border-color:#c09853;}
+.twitter .control-group.error>label, .twitter .control-group.error .help-block, .twitter .control-group.error .help-inline{color:#b94a48;}
+.twitter .control-group.error input, .twitter .control-group.error select, .twitter .control-group.error textarea{color:#b94a48;border-color:#b94a48;}
+.twitter .control-group.error input:focus, .twitter .control-group.error select:focus, .twitter .control-group.error textarea:focus{border-color:#953b39;-webkit-box-shadow:0 0 6px #d59392;-moz-box-shadow:0 0 6px #d59392;box-shadow:0 0 6px #d59392;}
+.twitter .control-group.error .input-prepend .add-on, .twitter .control-group.error .input-append .add-on{color:#b94a48;background-color:#f2dede;border-color:#b94a48;}
+.twitter .control-group.success>label, .twitter .control-group.success .help-block, .twitter .control-group.success .help-inline{color:#468847;}
+.twitter .control-group.success input, .twitter .control-group.success select, .twitter .control-group.success textarea{color:#468847;border-color:#468847;}
+.twitter .control-group.success input:focus, .twitter .control-group.success select:focus, .twitter .control-group.success textarea:focus{border-color:#356635;-webkit-box-shadow:0 0 6px #7aba7b;-moz-box-shadow:0 0 6px #7aba7b;box-shadow:0 0 6px #7aba7b;}
+.twitter .control-group.success .input-prepend .add-on, .twitter .control-group.success .input-append .add-on{color:#468847;background-color:#dff0d8;border-color:#468847;}
+.twitter input:focus:required:invalid, .twitter textarea:focus:required:invalid, .twitter select:focus:required:invalid{color:#b94a48;border-color:#ee5f5b;}
+.twitter input:focus:required:invalid:focus, .twitter textarea:focus:required:invalid:focus, .twitter select:focus:required:invalid:focus{border-color:#e9322d;-webkit-box-shadow:0 0 6px #f8b9b7;-moz-box-shadow:0 0 6px #f8b9b7;box-shadow:0 0 6px #f8b9b7;}
+.twitter .form-actions{padding:17px 20px 18px;margin-top:18px;margin-bottom:18px;background-color:#f5f5f5;border-top:1px solid #ddd;}
+.twitter .uneditable-input{display:block;background-color:#ffffff;border-color:#eee;-webkit-box-shadow:inset 0 1px 2px rgba(0, 0, 0, 0.025);-moz-box-shadow:inset 0 1px 2px rgba(0, 0, 0, 0.025);box-shadow:inset 0 1px 2px rgba(0, 0, 0, 0.025);cursor:not-allowed;}
+.twitter :-moz-placeholder{color:#999999;}
+.twitter ::-webkit-input-placeholder{color:#999999;}
+.twitter .help-block{display:block;margin-top:5px;margin-bottom:0;color:#999999;}
+.twitter .help-inline{display:inline-block;*display:inline;*zoom:1;margin-bottom:9px;vertical-align:middle;padding-left:5px;}
+.twitter .input-prepend, .twitter .input-append{margin-bottom:5px;*zoom:1;}
+.twitter .input-prepend:before, .twitter .input-append:before, .twitter .input-prepend:after, .twitter .input-append:after{display:table;content:"";}
+.twitter .input-prepend:after, .twitter .input-append:after{clear:both;}
+.twitter .input-prepend input, .twitter .input-append input, .twitter .input-prepend .uneditable-input, .twitter .input-append .uneditable-input{-webkit-border-radius:0 3px 3px 0;-moz-border-radius:0 3px 3px 0;border-radius:0 3px 3px 0;}
+.twitter .input-prepend input:focus, .twitter .input-append input:focus, .twitter .input-prepend .uneditable-input:focus, .twitter .input-append .uneditable-input:focus{position:relative;z-index:2;}
+.twitter .input-prepend .uneditable-input, .twitter .input-append .uneditable-input{border-left-color:#ccc;}
+.twitter .input-prepend .add-on, .twitter .input-append .add-on{float:left;display:block;width:auto;min-width:16px;height:18px;margin-right:-1px;padding:4px 5px;font-weight:normal;line-height:18px;color:#999999;text-align:center;text-shadow:0 1px 0 #ffffff;background-color:#f5f5f5;border:1px solid #ccc;-webkit-border-radius:3px 0 0 3px;-moz-border-radius:3px 0 0 3px;border-radius:3px 0 0 3px;}
+.twitter .input-prepend .active, .twitter .input-append .active{background-color:#a9dba9;border-color:#46a546;}
+.twitter .input-prepend .add-on{*margin-top:1px;}
+.twitter .input-append input, .twitter .input-append .uneditable-input{float:left;-webkit-border-radius:3px 0 0 3px;-moz-border-radius:3px 0 0 3px;border-radius:3px 0 0 3px;}
+.twitter .input-append .uneditable-input{border-left-color:#eee;border-right-color:#ccc;}
+.twitter .input-append .add-on{margin-right:0;margin-left:-1px;-webkit-border-radius:0 3px 3px 0;-moz-border-radius:0 3px 3px 0;border-radius:0 3px 3px 0;}
+.twitter .input-append input:first-child{*margin-left:-160px;}
+.twitter .input-append input:first-child+.add-on{*margin-left:-21px;}
+.twitter .search-query{padding-left:14px;padding-right:14px;margin-bottom:0;-webkit-border-radius:14px;-moz-border-radius:14px;border-radius:14px;}
+.twitter .form-search input, .twitter .form-inline input, .twitter .form-horizontal input, .twitter .form-search textarea, .twitter .form-inline textarea, .twitter .form-horizontal textarea, .twitter .form-search select, .twitter .form-inline select, .twitter .form-horizontal select, .twitter .form-search .help-inline, .twitter .form-inline .help-inline, .twitter .form-horizontal .help-inline, .twitter .form-search .uneditable-input, .twitter .form-inline .uneditable-input, .twitter .form-horizontal .uneditable-input{display:inline-block;margin-bottom:0;}
+.twitter .form-search .hide, .twitter .form-inline .hide, .twitter .form-horizontal .hide{display:none;}
+.twitter .form-search label, .twitter .form-inline label, .twitter .form-search .input-append, .twitter .form-inline .input-append, .twitter .form-search .input-prepend, .twitter .form-inline .input-prepend{display:inline-block;}
+.twitter .form-search .input-append .add-on, .twitter .form-inline .input-prepend .add-on, .twitter .form-search .input-append .add-on, .twitter .form-inline .input-prepend .add-on{vertical-align:middle;}
+.twitter .form-search .radio, .twitter .form-inline .radio, .twitter .form-search .checkbox, .twitter .form-inline .checkbox{margin-bottom:0;vertical-align:middle;}
+.twitter .control-group{margin-bottom:9px;}
+.twitter legend+.control-group{margin-top:18px;-webkit-margin-top-collapse:separate;}
+.twitter .form-horizontal .control-group{margin-bottom:18px;*zoom:1;}
+.twitter .form-horizontal .control-group:before, .twitter .form-horizontal .control-group:after{display:table;content:"";}
+.twitter .form-horizontal .control-group:after{clear:both;}
+.twitter .form-horizontal .control-label{float:left;width:140px;padding-top:5px;text-align:right;}
+.twitter .form-horizontal .controls{margin-left:160px;}
+.twitter .form-horizontal .form-actions{padding-left:160px;}
+.twitter table{max-width:100%;border-collapse:collapse;border-spacing:0;}
+.twitter .table{width:100%;margin-bottom:18px;}
+.twitter .table th, .twitter .table td{padding:8px;line-height:18px;text-align:left;vertical-align:top;border-top:1px solid #ddd;}
+.twitter .table th{font-weight:bold;}
+.twitter .table thead th{vertical-align:bottom;}
+.twitter .table thead:first-child tr th, .twitter .table thead:first-child tr td{border-top:0;}
+.twitter .table tbody+tbody{border-top:2px solid #ddd;}
+.twitter .table-condensed th, .twitter .table-condensed td{padding:4px 5px;}
+.twitter .table-bordered{border:1px solid #ddd;border-collapse:separate;*border-collapse:collapsed;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;}
+.twitter .table-bordered th+th, .twitter .table-bordered td+td, .twitter .table-bordered th+td, .twitter .table-bordered td+th{border-left:1px solid #ddd;}
+.twitter .table-bordered thead:first-child tr:first-child th, .twitter .table-bordered tbody:first-child tr:first-child th, .twitter .table-bordered tbody:first-child tr:first-child td{border-top:0;}
+.twitter .table-bordered thead:first-child tr:first-child th:first-child, .twitter .table-bordered tbody:first-child tr:first-child td:first-child{-webkit-border-radius:4px 0 0 0;-moz-border-radius:4px 0 0 0;border-radius:4px 0 0 0;}
+.twitter .table-bordered thead:first-child tr:first-child th:last-child, .twitter .table-bordered tbody:first-child tr:first-child td:last-child{-webkit-border-radius:0 4px 0 0;-moz-border-radius:0 4px 0 0;border-radius:0 4px 0 0;}
+.twitter .table-bordered thead:last-child tr:last-child th:first-child, .twitter .table-bordered tbody:last-child tr:last-child td:first-child{-webkit-border-radius:0 0 0 4px;-moz-border-radius:0 0 0 4px;border-radius:0 0 0 4px;}
+.twitter .table-bordered thead:last-child tr:last-child th:last-child, .twitter .table-bordered tbody:last-child tr:last-child td:last-child{-webkit-border-radius:0 0 4px 0;-moz-border-radius:0 0 4px 0;border-radius:0 0 4px 0;}
+.twitter .table-striped tbody tr:nth-child(odd) td, .twitter .table-striped tbody tr:nth-child(odd) th{background-color:#f9f9f9;}
+.twitter .table tbody tr:hover td, .twitter .table tbody tr:hover th{background-color:#f5f5f5;}
+.twitter table .span1{float:none;width:44px;margin-left:0;}
+.twitter table .span2{float:none;width:124px;margin-left:0;}
+.twitter table .span3{float:none;width:204px;margin-left:0;}
+.twitter table .span4{float:none;width:284px;margin-left:0;}
+.twitter table .span5{float:none;width:364px;margin-left:0;}
+.twitter table .span6{float:none;width:444px;margin-left:0;}
+.twitter table .span7{float:none;width:524px;margin-left:0;}
+.twitter table .span8{float:none;width:604px;margin-left:0;}
+.twitter table .span9{float:none;width:684px;margin-left:0;}
+.twitter table .span10{float:none;width:764px;margin-left:0;}
+.twitter table .span11{float:none;width:844px;margin-left:0;}
+.twitter table .span12{float:none;width:924px;margin-left:0;}
+.twitter [class^="icon-"], .twitter [class*=" icon-"]{display:inline-block;width:14px;height:14px;line-height:14px;vertical-align:text-top;background-image:url("../img/glyphicons-halflings.png");background-position:14px 14px;background-repeat:no-repeat;*margin-right:.3em;}
+.twitter [class^="icon-"]:last-child, .twitter [class*=" icon-"]:last-child{*margin-left:0;}
+.twitter .icon-white{background-image:url("../img/glyphicons-halflings-white.png");}
+.twitter .icon-glass{background-position:0 0;}
+.twitter .icon-music{background-position:-24px 0;}
+.twitter .icon-search{background-position:-48px 0;}
+.twitter .icon-envelope{background-position:-72px 0;}
+.twitter .icon-heart{background-position:-96px 0;}
+.twitter .icon-star{background-position:-120px 0;}
+.twitter .icon-star-empty{background-position:-144px 0;}
+.twitter .icon-user{background-position:-168px 0;}
+.twitter .icon-film{background-position:-192px 0;}
+.twitter .icon-th-large{background-position:-216px 0;}
+.twitter .icon-th{background-position:-240px 0;}
+.twitter .icon-th-list{background-position:-264px 0;}
+.twitter .icon-ok{background-position:-288px 0;}
+.twitter .icon-remove{background-position:-312px 0;}
+.twitter .icon-zoom-in{background-position:-336px 0;}
+.twitter .icon-zoom-out{background-position:-360px 0;}
+.twitter .icon-off{background-position:-384px 0;}
+.twitter .icon-signal{background-position:-408px 0;}
+.twitter .icon-cog{background-position:-432px 0;}
+.twitter .icon-trash{background-position:-456px 0;}
+.twitter .icon-home{background-position:0 -24px;}
+.twitter .icon-file{background-position:-24px -24px;}
+.twitter .icon-time{background-position:-48px -24px;}
+.twitter .icon-road{background-position:-72px -24px;}
+.twitter .icon-download-alt{background-position:-96px -24px;}
+.twitter .icon-download{background-position:-120px -24px;}
+.twitter .icon-upload{background-position:-144px -24px;}
+.twitter .icon-inbox{background-position:-168px -24px;}
+.twitter .icon-play-circle{background-position:-192px -24px;}
+.twitter .icon-repeat{background-position:-216px -24px;}
+.twitter .icon-refresh{background-position:-240px -24px;}
+.twitter .icon-list-alt{background-position:-264px -24px;}
+.twitter .icon-lock{background-position:-287px -24px;}
+.twitter .icon-flag{background-position:-312px -24px;}
+.twitter .icon-headphones{background-position:-336px -24px;}
+.twitter .icon-volume-off{background-position:-360px -24px;}
+.twitter .icon-volume-down{background-position:-384px -24px;}
+.twitter .icon-volume-up{background-position:-408px -24px;}
+.twitter .icon-qrcode{background-position:-432px -24px;}
+.twitter .icon-barcode{background-position:-456px -24px;}
+.twitter .icon-tag{background-position:0 -48px;}
+.twitter .icon-tags{background-position:-25px -48px;}
+.twitter .icon-book{background-position:-48px -48px;}
+.twitter .icon-bookmark{background-position:-72px -48px;}
+.twitter .icon-print{background-position:-96px -48px;}
+.twitter .icon-camera{background-position:-120px -48px;}
+.twitter .icon-font{background-position:-144px -48px;}
+.twitter .icon-bold{background-position:-167px -48px;}
+.twitter .icon-italic{background-position:-192px -48px;}
+.twitter .icon-text-height{background-position:-216px -48px;}
+.twitter .icon-text-width{background-position:-240px -48px;}
+.twitter .icon-align-left{background-position:-264px -48px;}
+.twitter .icon-align-center{background-position:-288px -48px;}
+.twitter .icon-align-right{background-position:-312px -48px;}
+.twitter .icon-align-justify{background-position:-336px -48px;}
+.twitter .icon-list{background-position:-360px -48px;}
+.twitter .icon-indent-left{background-position:-384px -48px;}
+.twitter .icon-indent-right{background-position:-408px -48px;}
+.twitter .icon-facetime-video{background-position:-432px -48px;}
+.twitter .icon-picture{background-position:-456px -48px;}
+.twitter .icon-pencil{background-position:0 -72px;}
+.twitter .icon-map-marker{background-position:-24px -72px;}
+.twitter .icon-adjust{background-position:-48px -72px;}
+.twitter .icon-tint{background-position:-72px -72px;}
+.twitter .icon-edit{background-position:-96px -72px;}
+.twitter .icon-share{background-position:-120px -72px;}
+.twitter .icon-check{background-position:-144px -72px;}
+.twitter .icon-move{background-position:-168px -72px;}
+.twitter .icon-step-backward{background-position:-192px -72px;}
+.twitter .icon-fast-backward{background-position:-216px -72px;}
+.twitter .icon-backward{background-position:-240px -72px;}
+.twitter .icon-play{background-position:-264px -72px;}
+.twitter .icon-pause{background-position:-288px -72px;}
+.twitter .icon-stop{background-position:-312px -72px;}
+.twitter .icon-forward{background-position:-336px -72px;}
+.twitter .icon-fast-forward{background-position:-360px -72px;}
+.twitter .icon-step-forward{background-position:-384px -72px;}
+.twitter .icon-eject{background-position:-408px -72px;}
+.twitter .icon-chevron-left{background-position:-432px -72px;}
+.twitter .icon-chevron-right{background-position:-456px -72px;}
+.twitter .icon-plus-sign{background-position:0 -96px;}
+.twitter .icon-minus-sign{background-position:-24px -96px;}
+.twitter .icon-remove-sign{background-position:-48px -96px;}
+.twitter .icon-ok-sign{background-position:-72px -96px;}
+.twitter .icon-question-sign{background-position:-96px -96px;}
+.twitter .icon-info-sign{background-position:-120px -96px;}
+.twitter .icon-screenshot{background-position:-144px -96px;}
+.twitter .icon-remove-circle{background-position:-168px -96px;}
+.twitter .icon-ok-circle{background-position:-192px -96px;}
+.twitter .icon-ban-circle{background-position:-216px -96px;}
+.twitter .icon-arrow-left{background-position:-240px -96px;}
+.twitter .icon-arrow-right{background-position:-264px -96px;}
+.twitter .icon-arrow-up{background-position:-289px -96px;}
+.twitter .icon-arrow-down{background-position:-312px -96px;}
+.twitter .icon-share-alt{background-position:-336px -96px;}
+.twitter .icon-resize-full{background-position:-360px -96px;}
+.twitter .icon-resize-small{background-position:-384px -96px;}
+.twitter .icon-plus{background-position:-408px -96px;}
+.twitter .icon-minus{background-position:-433px -96px;}
+.twitter .icon-asterisk{background-position:-456px -96px;}
+.twitter .icon-exclamation-sign{background-position:0 -120px;}
+.twitter .icon-gift{background-position:-24px -120px;}
+.twitter .icon-leaf{background-position:-48px -120px;}
+.twitter .icon-fire{background-position:-72px -120px;}
+.twitter .icon-eye-open{background-position:-96px -120px;}
+.twitter .icon-eye-close{background-position:-120px -120px;}
+.twitter .icon-warning-sign{background-position:-144px -120px;}
+.twitter .icon-plane{background-position:-168px -120px;}
+.twitter .icon-calendar{background-position:-192px -120px;}
+.twitter .icon-random{background-position:-216px -120px;}
+.twitter .icon-comment{background-position:-240px -120px;}
+.twitter .icon-magnet{background-position:-264px -120px;}
+.twitter .icon-chevron-up{background-position:-288px -120px;}
+.twitter .icon-chevron-down{background-position:-313px -119px;}
+.twitter .icon-retweet{background-position:-336px -120px;}
+.twitter .icon-shopping-cart{background-position:-360px -120px;}
+.twitter .icon-folder-close{background-position:-384px -120px;}
+.twitter .icon-folder-open{background-position:-408px -120px;}
+.twitter .icon-resize-vertical{background-position:-432px -119px;}
+.twitter .icon-resize-horizontal{background-position:-456px -118px;}
+.twitter .dropdown{position:relative;}
+.twitter .dropdown-toggle{*margin-bottom:-3px;}
+.twitter .dropdown-toggle:active, .twitter .open .dropdown-toggle{outline:0;}
+.twitter .caret{display:inline-block;width:0;height:0;text-indent:-99999px;*text-indent:0;vertical-align:top;border-left:4px solid transparent;border-right:4px solid transparent;border-top:4px solid #000000;opacity:0.3;filter:alpha(opacity=30);content:"\2193";}
+.twitter .dropdown .caret{margin-top:8px;margin-left:2px;}
+.twitter .dropdown:hover .caret, .twitter .open.dropdown .caret{opacity:1;filter:alpha(opacity=100);}
+.twitter .dropdown-menu{position:absolute;top:100%;left:0;z-index:1000;float:left;display:none;min-width:160px;_width:160px;padding:4px 0;margin:0;list-style:none;background-color:#ffffff;border-color:#ccc;border-color:rgba(0, 0, 0, 0.2);border-style:solid;border-width:1px;-webkit-border-radius:0 0 5px 5px;-moz-border-radius:0 0 5px 5px;border-radius:0 0 5px 5px;-webkit-box-shadow:0 5px 10px rgba(0, 0, 0, 0.2);-moz-box-shadow:0 5px 10px rgba(0, 0, 0, 0.2);box-shadow:0 5px 10px rgba(0, 0, 0, 0.2);-webkit-background-clip:padding-box;-moz-background-clip:padding;background-clip:padding-box;*border-right-width:2px;*border-bottom-width:2px;}
+.twitter .dropdown-menu.bottom-up{top:auto;bottom:100%;margin-bottom:2px;}
+.twitter .dropdown-menu .divider{height:1px;margin:5px 1px;overflow:hidden;background-color:#e5e5e5;border-bottom:1px solid #ffffff;*width:100%;*margin:-5px 0 5px;}
+.twitter .dropdown-menu a{display:block;padding:3px 15px;clear:both;font-weight:normal;line-height:18px;color:#555555;white-space:nowrap;}
+.twitter .dropdown-menu li>a:hover, .twitter .dropdown-menu .active>a, .twitter .dropdown-menu .active>a:hover{color:#ffffff;text-decoration:none;background-color:#0088cc;}
+.twitter .dropdown.open{*z-index:1000;}
+.twitter .dropdown.open .dropdown-toggle{color:#ffffff;background:#ccc;background:rgba(0, 0, 0, 0.3);}
+.twitter .dropdown.open .dropdown-menu{display:block;}
+.twitter .typeahead{margin-top:2px;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;}
+.twitter .well{min-height:20px;padding:19px;margin-bottom:20px;background-color:#f5f5f5;border:1px solid #eee;border:1px solid rgba(0, 0, 0, 0.05);-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;-webkit-box-shadow:inset 0 1px 1px rgba(0, 0, 0, 0.05);-moz-box-shadow:inset 0 1px 1px rgba(0, 0, 0, 0.05);box-shadow:inset 0 1px 1px rgba(0, 0, 0, 0.05);}
+.twitter .well blockquote{border-color:#ddd;border-color:rgba(0, 0, 0, 0.15);}
+.twitter .fade{-webkit-transition:opacity 0.15s linear;-moz-transition:opacity 0.15s linear;-ms-transition:opacity 0.15s linear;-o-transition:opacity 0.15s linear;transition:opacity 0.15s linear;opacity:0;}
+.twitter .fade.in{opacity:1;}
+.twitter .collapse{-webkit-transition:height 0.35s ease;-moz-transition:height 0.35s ease;-ms-transition:height 0.35s ease;-o-transition:height 0.35s ease;transition:height 0.35s ease;position:relative;overflow:hidden;height:0;}
+.twitter .collapse.in{height:auto;}
+.twitter .close{float:right;font-size:20px;font-weight:bold;line-height:18px;color:#000000;text-shadow:0 1px 0 #ffffff;opacity:0.2;filter:alpha(opacity=20);}
+.twitter .close:hover{color:#000000;text-decoration:none;opacity:0.4;filter:alpha(opacity=40);cursor:pointer;}
+.twitter .btn{display:inline-block;padding:4px 10px 4px;margin-bottom:0;font-size:13px;line-height:18px;color:#333333;text-align:center;text-shadow:0 1px 1px rgba(255, 255, 255, 0.75);vertical-align:middle;background-color:#f5f5f5;background-image:-moz-linear-gradient(top, #ffffff, #e6e6e6);background-image:-ms-linear-gradient(top, #ffffff, #e6e6e6);background-image:-webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#e6e6e6));background-image:-webkit-linear-gradient(top, #ffffff, #e6e6e6);background-image:-o-linear-gradient(top, #ffffff, #e6e6e6);background-image:linear-gradient(top, #ffffff, #e6e6e6);background-repeat:repeat-x;filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#e6e6e6', GradientType=0);border-color:#e6e6e6 #e6e6e6 #bfbfbf;border-color:rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);filter:progid:DXImageTransform.Microsoft.gradient(enabled = false);border:1px solid #ccc;border-bottom-color:#bbb;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;-webkit-box-shadow:inset 0 1px 0 rgba(255, 255, 255, 0.2),0 1px 2px rgba(0, 0, 0, 0.05);-moz-box-shadow:inset 0 1px 0 rgba(255, 255, 255, 0.2),0 1px 2px rgba(0, 0, 0, 0.05);box-shadow:inset 0 1px 0 rgba(255, 255, 255, 0.2),0 1px 2px rgba(0, 0, 0, 0.05);cursor:pointer;filter:progid:DXImageTransform.Microsoft.gradient(enabled = false);*margin-left:.3em;}
+.twitter .btn:hover, .twitter .btn:active, .twitter .btn.active, .twitter .btn.disabled, .twitter .btn[disabled]{background-color:#e6e6e6;}
+.twitter .btn:active, .twitter .btn.active{background-color:#cccccc \9;}
+.twitter .btn:first-child{*margin-left:0;}
+.twitter .btn:hover{color:#333333;text-decoration:none;background-color:#e6e6e6;background-position:0 -15px;-webkit-transition:background-position 0.1s linear;-moz-transition:background-position 0.1s linear;-ms-transition:background-position 0.1s linear;-o-transition:background-position 0.1s linear;transition:background-position 0.1s linear;}
+.twitter .btn:focus{outline:thin dotted #333;outline:5px auto -webkit-focus-ring-color;outline-offset:-2px;}
+.twitter .btn.active, .twitter .btn:active{background-image:none;-webkit-box-shadow:inset 0 2px 4px rgba(0, 0, 0, 0.15),0 1px 2px rgba(0, 0, 0, 0.05);-moz-box-shadow:inset 0 2px 4px rgba(0, 0, 0, 0.15),0 1px 2px rgba(0, 0, 0, 0.05);box-shadow:inset 0 2px 4px rgba(0, 0, 0, 0.15),0 1px 2px rgba(0, 0, 0, 0.05);background-color:#e6e6e6;background-color:#d9d9d9 \9;outline:0;}
+.twitter .btn.disabled, .twitter .btn[disabled]{cursor:default;background-image:none;background-color:#e6e6e6;opacity:0.65;filter:alpha(opacity=65);-webkit-box-shadow:none;-moz-box-shadow:none;box-shadow:none;}
+.twitter .btn-large{padding:9px 14px;font-size:15px;line-height:normal;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;}
+.twitter .btn-large [class^="icon-"]{margin-top:1px;}
+.twitter .btn-small{padding:5px 9px;font-size:11px;line-height:16px;}
+.twitter .btn-small [class^="icon-"]{margin-top:-1px;}
+.twitter .btn-mini{padding:2px 6px;font-size:11px;line-height:14px;}
+.twitter .btn-primary, .twitter .btn-primary:hover, .twitter .btn-warning, .twitter .btn-warning:hover, .twitter .btn-danger, .twitter .btn-danger:hover, .twitter .btn-success, .twitter .btn-success:hover, .twitter .btn-info, .twitter .btn-info:hover, .twitter .btn-inverse, .twitter .btn-inverse:hover{text-shadow:0 -1px 0 rgba(0, 0, 0, 0.25);color:#ffffff;}
+.twitter .btn-primary.active, .twitter .btn-warning.active, .twitter .btn-danger.active, .twitter .btn-success.active, .twitter .btn-info.active, .twitter .btn-dark.active{color:rgba(255, 255, 255, 0.75);}
+.twitter .btn-primary{background-color:#006dcc;background-image:-moz-linear-gradient(top, #0088cc, #0044cc);background-image:-ms-linear-gradient(top, #0088cc, #0044cc);background-image:-webkit-gradient(linear, 0 0, 0 100%, from(#0088cc), to(#0044cc));background-image:-webkit-linear-gradient(top, #0088cc, #0044cc);background-image:-o-linear-gradient(top, #0088cc, #0044cc);background-image:linear-gradient(top, #0088cc, #0044cc);background-repeat:repeat-x;filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#0088cc', endColorstr='#0044cc', GradientType=0);border-color:#0044cc #0044cc #002a80;border-color:rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);filter:progid:DXImageTransform.Microsoft.gradient(enabled = false);}
+.twitter .btn-primary:hover, .twitter .btn-primary:active, .twitter .btn-primary.active, .twitter .btn-primary.disabled, .twitter .btn-primary[disabled]{background-color:#0044cc;}
+.twitter .btn-primary:active, .twitter .btn-primary.active{background-color:#003399 \9;}
+.twitter .btn-warning{background-color:#faa732;background-image:-moz-linear-gradient(top, #fbb450, #f89406);background-image:-ms-linear-gradient(top, #fbb450, #f89406);background-image:-webkit-gradient(linear, 0 0, 0 100%, from(#fbb450), to(#f89406));background-image:-webkit-linear-gradient(top, #fbb450, #f89406);background-image:-o-linear-gradient(top, #fbb450, #f89406);background-image:linear-gradient(top, #fbb450, #f89406);background-repeat:repeat-x;filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#fbb450', endColorstr='#f89406', GradientType=0);border-color:#f89406 #f89406 #ad6704;border-color:rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);filter:progid:DXImageTransform.Microsoft.gradient(enabled = false);}
+.twitter .btn-warning:hover, .twitter .btn-warning:active, .twitter .btn-warning.active, .twitter .btn-warning.disabled, .twitter .btn-warning[disabled]{background-color:#f89406;}
+.twitter .btn-warning:active, .twitter .btn-warning.active{background-color:#c67605 \9;}
+.twitter .btn-danger{background-color:#da4f49;background-image:-moz-linear-gradient(top, #ee5f5b, #bd362f);background-image:-ms-linear-gradient(top, #ee5f5b, #bd362f);background-image:-webkit-gradient(linear, 0 0, 0 100%, from(#ee5f5b), to(#bd362f));background-image:-webkit-linear-gradient(top, #ee5f5b, #bd362f);background-image:-o-linear-gradient(top, #ee5f5b, #bd362f);background-image:linear-gradient(top, #ee5f5b, #bd362f);background-repeat:repeat-x;filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ee5f5b', endColorstr='#bd362f', GradientType=0);border-color:#bd362f #bd362f #802420;border-color:rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);filter:progid:DXImageTransform.Microsoft.gradient(enabled = false);}
+.twitter .btn-danger:hover, .twitter .btn-danger:active, .twitter .btn-danger.active, .twitter .btn-danger.disabled, .twitter .btn-danger[disabled]{background-color:#bd362f;}
+.twitter .btn-danger:active, .twitter .btn-danger.active{background-color:#942a25 \9;}
+.twitter .btn-success{background-color:#5bb75b;background-image:-moz-linear-gradient(top, #62c462, #51a351);background-image:-ms-linear-gradient(top, #62c462, #51a351);background-image:-webkit-gradient(linear, 0 0, 0 100%, from(#62c462), to(#51a351));background-image:-webkit-linear-gradient(top, #62c462, #51a351);background-image:-o-linear-gradient(top, #62c462, #51a351);background-image:linear-gradient(top, #62c462, #51a351);background-repeat:repeat-x;filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#62c462', endColorstr='#51a351', GradientType=0);border-color:#51a351 #51a351 #387038;border-color:rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);filter:progid:DXImageTransform.Microsoft.gradient(enabled = false);}
+.twitter .btn-success:hover, .twitter .btn-success:active, .twitter .btn-success.active, .twitter .btn-success.disabled, .twitter .btn-success[disabled]{background-color:#51a351;}
+.twitter .btn-success:active, .twitter .btn-success.active{background-color:#408140 \9;}
+.twitter .btn-info{background-color:#49afcd;background-image:-moz-linear-gradient(top, #5bc0de, #2f96b4);background-image:-ms-linear-gradient(top, #5bc0de, #2f96b4);background-image:-webkit-gradient(linear, 0 0, 0 100%, from(#5bc0de), to(#2f96b4));background-image:-webkit-linear-gradient(top, #5bc0de, #2f96b4);background-image:-o-linear-gradient(top, #5bc0de, #2f96b4);background-image:linear-gradient(top, #5bc0de, #2f96b4);background-repeat:repeat-x;filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#5bc0de', endColorstr='#2f96b4', GradientType=0);border-color:#2f96b4 #2f96b4 #1f6377;border-color:rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);filter:progid:DXImageTransform.Microsoft.gradient(enabled = false);}
+.twitter .btn-info:hover, .twitter .btn-info:active, .twitter .btn-info.active, .twitter .btn-info.disabled, .twitter .btn-info[disabled]{background-color:#2f96b4;}
+.twitter .btn-info:active, .twitter .btn-info.active{background-color:#24748c \9;}
+.twitter .btn-inverse{background-color:#393939;background-image:-moz-linear-gradient(top, #454545, #262626);background-image:-ms-linear-gradient(top, #454545, #262626);background-image:-webkit-gradient(linear, 0 0, 0 100%, from(#454545), to(#262626));background-image:-webkit-linear-gradient(top, #454545, #262626);background-image:-o-linear-gradient(top, #454545, #262626);background-image:linear-gradient(top, #454545, #262626);background-repeat:repeat-x;filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#454545', endColorstr='#262626', GradientType=0);border-color:#262626 #262626 #000000;border-color:rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);filter:progid:DXImageTransform.Microsoft.gradient(enabled = false);}
+.twitter .btn-inverse:hover, .twitter .btn-inverse:active, .twitter .btn-inverse.active, .twitter .btn-inverse.disabled, .twitter .btn-inverse[disabled]{background-color:#262626;}
+.twitter .btn-inverse:active, .twitter .btn-inverse.active{background-color:#0c0c0c \9;}
+.twitter button.btn, .twitter input[type="submit"].btn{*padding-top:2px;*padding-bottom:2px;}
+.twitter button.btn::-moz-focus-inner, .twitter input[type="submit"].btn::-moz-focus-inner{padding:0;border:0;}
+.twitter button.btn.large, .twitter input[type="submit"].btn.large{*padding-top:7px;*padding-bottom:7px;}
+.twitter button.btn.small, .twitter input[type="submit"].btn.small{*padding-top:3px;*padding-bottom:3px;}
+.twitter .btn-group{position:relative;*zoom:1;*margin-left:.3em;}
+.twitter .btn-group:before, .twitter .btn-group:after{display:table;content:"";}
+.twitter .btn-group:after{clear:both;}
+.twitter .btn-group:first-child{*margin-left:0;}
+.twitter .btn-group+.btn-group{margin-left:5px;}
+.twitter .btn-toolbar{margin-top:9px;margin-bottom:9px;}
+.twitter .btn-toolbar .btn-group{display:inline-block;*display:inline;*zoom:1;}
+.twitter .btn-group .btn{position:relative;float:left;margin-left:-1px;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;}
+.twitter .btn-group .btn:first-child{margin-left:0;-webkit-border-top-left-radius:4px;-moz-border-radius-topleft:4px;border-top-left-radius:4px;-webkit-border-bottom-left-radius:4px;-moz-border-radius-bottomleft:4px;border-bottom-left-radius:4px;}
+.twitter .btn-group .btn:last-child, .twitter .btn-group .dropdown-toggle{-webkit-border-top-right-radius:4px;-moz-border-radius-topright:4px;border-top-right-radius:4px;-webkit-border-bottom-right-radius:4px;-moz-border-radius-bottomright:4px;border-bottom-right-radius:4px;}
+.twitter .btn-group .btn.large:first-child{margin-left:0;-webkit-border-top-left-radius:6px;-moz-border-radius-topleft:6px;border-top-left-radius:6px;-webkit-border-bottom-left-radius:6px;-moz-border-radius-bottomleft:6px;border-bottom-left-radius:6px;}
+.twitter .btn-group .btn.large:last-child, .twitter .btn-group .large.dropdown-toggle{-webkit-border-top-right-radius:6px;-moz-border-radius-topright:6px;border-top-right-radius:6px;-webkit-border-bottom-right-radius:6px;-moz-border-radius-bottomright:6px;border-bottom-right-radius:6px;}
+.twitter .btn-group .btn:hover, .twitter .btn-group .btn:focus, .twitter .btn-group .btn:active, .twitter .btn-group .btn.active{z-index:2;}
+.twitter .btn-group .dropdown-toggle:active, .twitter .btn-group.open .dropdown-toggle{outline:0;}
+.twitter .btn-group .dropdown-toggle{padding-left:8px;padding-right:8px;-webkit-box-shadow:inset 1px 0 0 rgba(255, 255, 255, 0.125),inset 0 1px 0 rgba(255, 255, 255, 0.2),0 1px 2px rgba(0, 0, 0, 0.05);-moz-box-shadow:inset 1px 0 0 rgba(255, 255, 255, 0.125),inset 0 1px 0 rgba(255, 255, 255, 0.2),0 1px 2px rgba(0, 0, 0, 0.05);box-shadow:inset 1px 0 0 rgba(255, 255, 255, 0.125),inset 0 1px 0 rgba(255, 255, 255, 0.2),0 1px 2px rgba(0, 0, 0, 0.05);*padding-top:5px;*padding-bottom:5px;}
+.twitter .btn-group.open{*z-index:1000;}
+.twitter .btn-group.open .dropdown-menu{display:block;margin-top:1px;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;}
+.twitter .btn-group.open .dropdown-toggle{background-image:none;-webkit-box-shadow:inset 0 1px 6px rgba(0, 0, 0, 0.15),0 1px 2px rgba(0, 0, 0, 0.05);-moz-box-shadow:inset 0 1px 6px rgba(0, 0, 0, 0.15),0 1px 2px rgba(0, 0, 0, 0.05);box-shadow:inset 0 1px 6px rgba(0, 0, 0, 0.15),0 1px 2px rgba(0, 0, 0, 0.05);}
+.twitter .btn .caret{margin-top:7px;margin-left:0;}
+.twitter .btn:hover .caret, .twitter .open.btn-group .caret{opacity:1;filter:alpha(opacity=100);}
+.twitter .btn-primary .caret, .twitter .btn-danger .caret, .twitter .btn-info .caret, .twitter .btn-success .caret, .twitter .btn-inverse .caret{border-top-color:#ffffff;opacity:0.75;filter:alpha(opacity=75);}
+.twitter .btn-small .caret{margin-top:4px;}
+.twitter .alert{padding:8px 35px 8px 14px;margin-bottom:18px;text-shadow:0 1px 0 rgba(255, 255, 255, 0.5);background-color:#fcf8e3;border:1px solid #fbeed5;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;}
+.twitter .alert, .twitter .alert-heading{color:#c09853;}
+.twitter .alert .close{position:relative;top:-2px;right:-21px;line-height:18px;}
+.twitter .alert-success{background-color:#dff0d8;border-color:#d6e9c6;}
+.twitter .alert-success, .twitter .alert-success .alert-heading{color:#468847;}
+.twitter .alert-danger, .twitter .alert-error{background-color:#f2dede;border-color:#eed3d7;}
+.twitter .alert-danger, .twitter .alert-error, .twitter .alert-danger .alert-heading, .twitter .alert-error .alert-heading{color:#b94a48;}
+.twitter .alert-info{background-color:#d9edf7;border-color:#bce8f1;}
+.twitter .alert-info, .twitter .alert-info .alert-heading{color:#3a87ad;}
+.twitter .alert-block{padding-top:14px;padding-bottom:14px;}
+.twitter .alert-block>p, .twitter .alert-block>ul{margin-bottom:0;}
+.twitter .alert-block p+p{margin-top:5px;}
+.twitter .nav{margin-left:0;margin-bottom:18px;list-style:none;}
+.twitter .nav>li>a{display:block;}
+.twitter .nav>li>a:hover{text-decoration:none;background-color:#eeeeee;}
+.twitter .nav .nav-header{display:block;padding:3px 15px;font-size:11px;font-weight:bold;line-height:18px;color:#999999;text-shadow:0 1px 0 rgba(255, 255, 255, 0.5);text-transform:uppercase;}
+.twitter .nav li+.nav-header{margin-top:9px;}
+.twitter .nav-list{padding-left:14px;padding-right:14px;margin-bottom:0;}
+.twitter .nav-list>li>a, .twitter .nav-list .nav-header{margin-left:-15px;margin-right:-15px;text-shadow:0 1px 0 rgba(255, 255, 255, 0.5);}
+.twitter .nav-list>li>a{padding:3px 15px;}
+.twitter .nav-list .active>a, .twitter .nav-list .active>a:hover{color:#ffffff;text-shadow:0 -1px 0 rgba(0, 0, 0, 0.2);background-color:#0088cc;}
+.twitter .nav-list [class^="icon-"]{margin-right:2px;}
+.twitter .nav-tabs, .twitter .nav-pills{*zoom:1;}
+.twitter .nav-tabs:before, .twitter .nav-pills:before, .twitter .nav-tabs:after, .twitter .nav-pills:after{display:table;content:"";}
+.twitter .nav-tabs:after, .twitter .nav-pills:after{clear:both;}
+.twitter .nav-tabs>li, .twitter .nav-pills>li{float:left;}
+.twitter .nav-tabs>li>a, .twitter .nav-pills>li>a{padding-right:12px;padding-left:12px;margin-right:2px;line-height:14px;}
+.twitter .nav-tabs{border-bottom:1px solid #ddd;}
+.twitter .nav-tabs>li{margin-bottom:-1px;}
+.twitter .nav-tabs>li>a{padding-top:9px;padding-bottom:9px;border:1px solid transparent;-webkit-border-radius:4px 4px 0 0;-moz-border-radius:4px 4px 0 0;border-radius:4px 4px 0 0;}
+.twitter .nav-tabs>li>a:hover{border-color:#eeeeee #eeeeee #dddddd;}
+.twitter .nav-tabs>.active>a, .twitter .nav-tabs>.active>a:hover{color:#555555;background-color:#ffffff;border:1px solid #ddd;border-bottom-color:transparent;cursor:default;}
+.twitter .nav-pills>li>a{padding-top:8px;padding-bottom:8px;margin-top:2px;margin-bottom:2px;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;}
+.twitter .nav-pills .active>a, .twitter .nav-pills .active>a:hover{color:#ffffff;background-color:#0088cc;}
+.twitter .nav-stacked>li{float:none;}
+.twitter .nav-stacked>li>a{margin-right:0;}
+.twitter .nav-tabs.nav-stacked{border-bottom:0;}
+.twitter .nav-tabs.nav-stacked>li>a{border:1px solid #ddd;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;}
+.twitter .nav-tabs.nav-stacked>li:first-child>a{-webkit-border-radius:4px 4px 0 0;-moz-border-radius:4px 4px 0 0;border-radius:4px 4px 0 0;}
+.twitter .nav-tabs.nav-stacked>li:last-child>a{-webkit-border-radius:0 0 4px 4px;-moz-border-radius:0 0 4px 4px;border-radius:0 0 4px 4px;}
+.twitter .nav-tabs.nav-stacked>li>a:hover{border-color:#ddd;z-index:2;}
+.twitter .nav-pills.nav-stacked>li>a{margin-bottom:3px;}
+.twitter .nav-pills.nav-stacked>li:last-child>a{margin-bottom:1px;}
+.twitter .nav-tabs .dropdown-menu, .twitter .nav-pills .dropdown-menu{margin-top:1px;border-width:1px;}
+.twitter .nav-pills .dropdown-menu{-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;}
+.twitter .nav-tabs .dropdown-toggle .caret, .twitter .nav-pills .dropdown-toggle .caret{border-top-color:#0088cc;margin-top:6px;}
+.twitter .nav-tabs .dropdown-toggle:hover .caret, .twitter .nav-pills .dropdown-toggle:hover .caret{border-top-color:#005580;}
+.twitter .nav-tabs .active .dropdown-toggle .caret, .twitter .nav-pills .active .dropdown-toggle .caret{border-top-color:#333333;}
+.twitter .nav>.dropdown.active>a:hover{color:#000000;cursor:pointer;}
+.twitter .nav-tabs .open .dropdown-toggle, .twitter .nav-pills .open .dropdown-toggle, .twitter .nav>.open.active>a:hover{color:#ffffff;background-color:#999999;border-color:#999999;}
+.twitter .nav .open .caret, .twitter .nav .open.active .caret, .twitter .nav .open a:hover .caret{border-top-color:#ffffff;opacity:1;filter:alpha(opacity=100);}
+.twitter .tabs-stacked .open>a:hover{border-color:#999999;}
+.twitter .tabbable{*zoom:1;}
+.twitter .tabbable:before, .twitter .tabbable:after{display:table;content:"";}
+.twitter .tabbable:after{clear:both;}
+.twitter .tab-content{overflow:hidden;}
+.twitter .tabs-below .nav-tabs, .twitter .tabs-right .nav-tabs, .twitter .tabs-left .nav-tabs{border-bottom:0;}
+.twitter .tab-content>.tab-pane, .twitter .pill-content>.pill-pane{display:none;}
+.twitter .tab-content>.active, .twitter .pill-content>.active{display:block;}
+.twitter .tabs-below .nav-tabs{border-top:1px solid #ddd;}
+.twitter .tabs-below .nav-tabs>li{margin-top:-1px;margin-bottom:0;}
+.twitter .tabs-below .nav-tabs>li>a{-webkit-border-radius:0 0 4px 4px;-moz-border-radius:0 0 4px 4px;border-radius:0 0 4px 4px;}
+.twitter .tabs-below .nav-tabs>li>a:hover{border-bottom-color:transparent;border-top-color:#ddd;}
+.twitter .tabs-below .nav-tabs .active>a, .twitter .tabs-below .nav-tabs .active>a:hover{border-color:transparent #ddd #ddd #ddd;}
+.twitter .tabs-left .nav-tabs>li, .twitter .tabs-right .nav-tabs>li{float:none;}
+.twitter .tabs-left .nav-tabs>li>a, .twitter .tabs-right .nav-tabs>li>a{min-width:74px;margin-right:0;margin-bottom:3px;}
+.twitter .tabs-left .nav-tabs{float:left;margin-right:19px;border-right:1px solid #ddd;}
+.twitter .tabs-left .nav-tabs>li>a{margin-right:-1px;-webkit-border-radius:4px 0 0 4px;-moz-border-radius:4px 0 0 4px;border-radius:4px 0 0 4px;}
+.twitter .tabs-left .nav-tabs>li>a:hover{border-color:#eeeeee #dddddd #eeeeee #eeeeee;}
+.twitter .tabs-left .nav-tabs .active>a, .twitter .tabs-left .nav-tabs .active>a:hover{border-color:#ddd transparent #ddd #ddd;*border-right-color:#ffffff;}
+.twitter .tabs-right .nav-tabs{float:right;margin-left:19px;border-left:1px solid #ddd;}
+.twitter .tabs-right .nav-tabs>li>a{margin-left:-1px;-webkit-border-radius:0 4px 4px 0;-moz-border-radius:0 4px 4px 0;border-radius:0 4px 4px 0;}
+.twitter .tabs-right .nav-tabs>li>a:hover{border-color:#eeeeee #eeeeee #eeeeee #dddddd;}
+.twitter .tabs-right .nav-tabs .active>a, .twitter .tabs-right .nav-tabs .active>a:hover{border-color:#ddd #ddd #ddd transparent;*border-left-color:#ffffff;}
+.twitter .navbar{overflow:visible;margin-bottom:18px;}
+.twitter .navbar-inner{padding-left:20px;padding-right:20px;background-color:#2c2c2c;background-image:-moz-linear-gradient(top, #333333, #222222);background-image:-ms-linear-gradient(top, #333333, #222222);background-image:-webkit-gradient(linear, 0 0, 0 100%, from(#333333), to(#222222));background-image:-webkit-linear-gradient(top, #333333, #222222);background-image:-o-linear-gradient(top, #333333, #222222);background-image:linear-gradient(top, #333333, #222222);background-repeat:repeat-x;filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#333333', endColorstr='#222222', GradientType=0);-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;-webkit-box-shadow:0 1px 3px rgba(0, 0, 0, 0.25),inset 0 -1px 0 rgba(0, 0, 0, 0.1);-moz-box-shadow:0 1px 3px rgba(0, 0, 0, 0.25),inset 0 -1px 0 rgba(0, 0, 0, 0.1);box-shadow:0 1px 3px rgba(0, 0, 0, 0.25),inset 0 -1px 0 rgba(0, 0, 0, 0.1);}
+.twitter .btn-navbar{display:none;float:right;padding:7px 10px;margin-left:5px;margin-right:5px;background-color:#2c2c2c;background-image:-moz-linear-gradient(top, #333333, #222222);background-image:-ms-linear-gradient(top, #333333, #222222);background-image:-webkit-gradient(linear, 0 0, 0 100%, from(#333333), to(#222222));background-image:-webkit-linear-gradient(top, #333333, #222222);background-image:-o-linear-gradient(top, #333333, #222222);background-image:linear-gradient(top, #333333, #222222);background-repeat:repeat-x;filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#333333', endColorstr='#222222', GradientType=0);border-color:#222222 #222222 #000000;border-color:rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);filter:progid:DXImageTransform.Microsoft.gradient(enabled = false);-webkit-box-shadow:inset 0 1px 0 rgba(255, 255, 255, 0.1),0 1px 0 rgba(255, 255, 255, 0.075);-moz-box-shadow:inset 0 1px 0 rgba(255, 255, 255, 0.1),0 1px 0 rgba(255, 255, 255, 0.075);box-shadow:inset 0 1px 0 rgba(255, 255, 255, 0.1),0 1px 0 rgba(255, 255, 255, 0.075);}
+.twitter .btn-navbar:hover, .twitter .btn-navbar:active, .twitter .btn-navbar.active, .twitter .btn-navbar.disabled, .twitter .btn-navbar[disabled]{background-color:#222222;}
+.twitter .btn-navbar:active, .twitter .btn-navbar.active{background-color:#080808 \9;}
+.twitter .btn-navbar .icon-bar{display:block;width:18px;height:2px;background-color:#f5f5f5;-webkit-border-radius:1px;-moz-border-radius:1px;border-radius:1px;-webkit-box-shadow:0 1px 0 rgba(0, 0, 0, 0.25);-moz-box-shadow:0 1px 0 rgba(0, 0, 0, 0.25);box-shadow:0 1px 0 rgba(0, 0, 0, 0.25);}
+.twitter .btn-navbar .icon-bar+.icon-bar{margin-top:3px;}
+.twitter .nav-collapse.collapse{height:auto;}
+.twitter .navbar .brand:hover{text-decoration:none;}
+.twitter .navbar .brand{float:left;display:block;padding:8px 20px 12px;margin-left:-20px;font-size:20px;font-weight:200;line-height:1;color:#ffffff;}
+.twitter .navbar .navbar-text{margin-bottom:0;line-height:40px;color:#999999;}
+.twitter .navbar .navbar-text a:hover{color:#ffffff;background-color:transparent;}
+.twitter .navbar .btn, .twitter .navbar .btn-group{margin-top:5px;}
+.twitter .navbar .btn-group .btn{margin-top:0;}
+.twitter .navbar-form{margin-bottom:0;*zoom:1;}
+.twitter .navbar-form:before, .twitter .navbar-form:after{display:table;content:"";}
+.twitter .navbar-form:after{clear:both;}
+.twitter .navbar-form input, .twitter .navbar-form select{display:inline-block;margin-top:5px;margin-bottom:0;}
+.twitter .navbar-form .radio, .twitter .navbar-form .checkbox{margin-top:5px;}
+.twitter .navbar-form input[type="image"], .twitter .navbar-form input[type="checkbox"], .twitter .navbar-form input[type="radio"]{margin-top:3px;}
+.twitter .navbar-form .input-append, .twitter .navbar-form .input-prepend{margin-top:6px;white-space:nowrap;}
+.twitter .navbar-form .input-append input, .twitter .navbar-form .input-prepend input{margin-top:0;}
+.twitter .navbar-search{position:relative;float:left;margin-top:6px;margin-bottom:0;}
+.twitter .navbar-search .search-query{padding:4px 9px;font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:13px;font-weight:normal;line-height:1;color:#ffffff;color:rgba(255, 255, 255, 0.75);background:#666;background:rgba(255, 255, 255, 0.3);border:1px solid #111;-webkit-box-shadow:inset 0 1px 2px rgba(0, 0, 0, 0.1),0 1px 0px rgba(255, 255, 255, 0.15);-moz-box-shadow:inset 0 1px 2px rgba(0, 0, 0, 0.1),0 1px 0px rgba(255, 255, 255, 0.15);box-shadow:inset 0 1px 2px rgba(0, 0, 0, 0.1),0 1px 0px rgba(255, 255, 255, 0.15);-webkit-transition:none;-moz-transition:none;-ms-transition:none;-o-transition:none;transition:none;}
+.twitter .navbar-search .search-query :-moz-placeholder{color:#eeeeee;}
+.twitter .navbar-search .search-query::-webkit-input-placeholder{color:#eeeeee;}
+.twitter .navbar-search .search-query:hover{color:#ffffff;background-color:#999999;background-color:rgba(255, 255, 255, 0.5);}
+.twitter .navbar-search .search-query:focus, .twitter .navbar-search .search-query.focused{padding:5px 10px;color:#333333;text-shadow:0 1px 0 #ffffff;background-color:#ffffff;border:0;-webkit-box-shadow:0 0 3px rgba(0, 0, 0, 0.15);-moz-box-shadow:0 0 3px rgba(0, 0, 0, 0.15);box-shadow:0 0 3px rgba(0, 0, 0, 0.15);outline:0;}
+.twitter .navbar-fixed-top{position:fixed;top:0;right:0;left:0;z-index:1030;}
+.twitter .navbar-fixed-top .navbar-inner{padding-left:0;padding-right:0;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;}
+.twitter .navbar .nav{position:relative;left:0;display:block;float:left;margin:0 10px 0 0;}
+.twitter .navbar .nav.pull-right{float:right;}
+.twitter .navbar .nav>li{display:block;float:left;}
+.twitter .navbar .nav>li>a{float:none;padding:10px 10px 11px;line-height:19px;color:#999999;text-decoration:none;text-shadow:0 -1px 0 rgba(0, 0, 0, 0.25);}
+.twitter .navbar .nav>li>a:hover{background-color:transparent;color:#ffffff;text-decoration:none;}
+.twitter .navbar .nav .active>a, .twitter .navbar .nav .active>a:hover{color:#ffffff;text-decoration:none;background-color:#222222;}
+.twitter .navbar .divider-vertical{height:40px;width:1px;margin:0 9px;overflow:hidden;background-color:#222222;border-right:1px solid #333333;}
+.twitter .navbar .nav.pull-right{margin-left:10px;margin-right:0;}
+.twitter .navbar .dropdown-menu{margin-top:1px;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;}
+.twitter .navbar .dropdown-menu:before{content:'';display:inline-block;border-left:7px solid transparent;border-right:7px solid transparent;border-bottom:7px solid #ccc;border-bottom-color:rgba(0, 0, 0, 0.2);position:absolute;top:-7px;left:9px;}
+.twitter .navbar .dropdown-menu:after{content:'';display:inline-block;border-left:6px solid transparent;border-right:6px solid transparent;border-bottom:6px solid #ffffff;position:absolute;top:-6px;left:10px;}
+.twitter .navbar .nav .dropdown-toggle .caret, .twitter .navbar .nav .open.dropdown .caret{border-top-color:#ffffff;}
+.twitter .navbar .nav .active .caret{opacity:1;filter:alpha(opacity=100);}
+.twitter .navbar .nav .open>.dropdown-toggle, .twitter .navbar .nav .active>.dropdown-toggle, .twitter .navbar .nav .open.active>.dropdown-toggle{background-color:transparent;}
+.twitter .navbar .nav .active>.dropdown-toggle:hover{color:#ffffff;}
+.twitter .navbar .nav.pull-right .dropdown-menu{left:auto;right:0;}
+.twitter .navbar .nav.pull-right .dropdown-menu:before{left:auto;right:12px;}
+.twitter .navbar .nav.pull-right .dropdown-menu:after{left:auto;right:13px;}
+.twitter .breadcrumb{padding:7px 14px;margin:0 0 18px;background-color:#fbfbfb;background-image:-moz-linear-gradient(top, #ffffff, #f5f5f5);background-image:-ms-linear-gradient(top, #ffffff, #f5f5f5);background-image:-webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#f5f5f5));background-image:-webkit-linear-gradient(top, #ffffff, #f5f5f5);background-image:-o-linear-gradient(top, #ffffff, #f5f5f5);background-image:linear-gradient(top, #ffffff, #f5f5f5);background-repeat:repeat-x;filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#f5f5f5', GradientType=0);border:1px solid #ddd;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;-webkit-box-shadow:inset 0 1px 0 #ffffff;-moz-box-shadow:inset 0 1px 0 #ffffff;box-shadow:inset 0 1px 0 #ffffff;}
+.twitter .breadcrumb li{display:inline-block;text-shadow:0 1px 0 #ffffff;}
+.twitter .breadcrumb .divider{padding:0 5px;color:#999999;}
+.twitter .breadcrumb .active a{color:#333333;}
+.twitter .pagination{height:36px;margin:18px 0;}
+.twitter .pagination ul{display:inline-block;*display:inline;*zoom:1;margin-left:0;margin-bottom:0;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;-webkit-box-shadow:0 1px 2px rgba(0, 0, 0, 0.05);-moz-box-shadow:0 1px 2px rgba(0, 0, 0, 0.05);box-shadow:0 1px 2px rgba(0, 0, 0, 0.05);}
+.twitter .pagination li{display:inline;}
+.twitter .pagination a{float:left;padding:0 14px;line-height:34px;text-decoration:none;border:1px solid #ddd;border-left-width:0;}
+.twitter .pagination a:hover, .twitter .pagination .active a{background-color:#f5f5f5;}
+.twitter .pagination .active a{color:#999999;cursor:default;}
+.twitter .pagination .disabled a, .twitter .pagination .disabled a:hover{color:#999999;background-color:transparent;cursor:default;}
+.twitter .pagination li:first-child a{border-left-width:1px;-webkit-border-radius:3px 0 0 3px;-moz-border-radius:3px 0 0 3px;border-radius:3px 0 0 3px;}
+.twitter .pagination li:last-child a{-webkit-border-radius:0 3px 3px 0;-moz-border-radius:0 3px 3px 0;border-radius:0 3px 3px 0;}
+.twitter .pagination-centered{text-align:center;}
+.twitter .pagination-right{text-align:right;}
+.twitter .pager{margin-left:0;margin-bottom:18px;list-style:none;text-align:center;*zoom:1;}
+.twitter .pager:before, .twitter .pager:after{display:table;content:"";}
+.twitter .pager:after{clear:both;}
+.twitter .pager li{display:inline;}
+.twitter .pager a{display:inline-block;padding:5px 14px;background-color:#fff;border:1px solid #ddd;-webkit-border-radius:15px;-moz-border-radius:15px;border-radius:15px;}
+.twitter .pager a:hover{text-decoration:none;background-color:#f5f5f5;}
+.twitter .pager .next a{float:right;}
+.twitter .pager .previous a{float:left;}
+.twitter .modal-open .dropdown-menu{z-index:2050;}
+.twitter .modal-open .dropdown.open{*z-index:2050;}
+.twitter .modal-open .popover{z-index:2060;}
+.twitter .modal-open .tooltip{z-index:2070;}
+.twitter .modal-backdrop{position:fixed;top:0;right:0;bottom:0;left:0;z-index:1040;background-color:#000000;}
+.twitter .modal-backdrop.fade{opacity:0;}
+.twitter .modal-backdrop, .twitter .modal-backdrop.fade.in{opacity:0.8;filter:alpha(opacity=80);}
+.twitter .modal{position:fixed;top:50%;left:50%;z-index:1050;max-height:500px;overflow:auto;width:560px;margin:-250px 0 0 -280px;background-color:#ffffff;border:1px solid #999;border:1px solid rgba(0, 0, 0, 0.3);*border:1px solid #999;-webkit-border-radius:6px;-moz-border-radius:6px;border-radius:6px;-webkit-box-shadow:0 3px 7px rgba(0, 0, 0, 0.3);-moz-box-shadow:0 3px 7px rgba(0, 0, 0, 0.3);box-shadow:0 3px 7px rgba(0, 0, 0, 0.3);-webkit-background-clip:padding-box;-moz-background-clip:padding-box;background-clip:padding-box;}
+.twitter .modal.fade{-webkit-transition:opacity .3s linear, top .3s ease-out;-moz-transition:opacity .3s linear, top .3s ease-out;-ms-transition:opacity .3s linear, top .3s ease-out;-o-transition:opacity .3s linear, top .3s ease-out;transition:opacity .3s linear, top .3s ease-out;top:-25%;}
+.twitter .modal.fade.in{top:50%;}
+.twitter .modal-header{padding:9px 15px;border-bottom:1px solid #eee;}
+.twitter .modal-header .close{margin-top:2px;}
+.twitter .modal-body{padding:15px;}
+.twitter .modal-body .modal-form{margin-bottom:0;}
+.twitter .modal-footer{padding:14px 15px 15px;margin-bottom:0;background-color:#f5f5f5;border-top:1px solid #ddd;-webkit-border-radius:0 0 6px 6px;-moz-border-radius:0 0 6px 6px;border-radius:0 0 6px 6px;-webkit-box-shadow:inset 0 1px 0 #ffffff;-moz-box-shadow:inset 0 1px 0 #ffffff;box-shadow:inset 0 1px 0 #ffffff;*zoom:1;}
+.twitter .modal-footer:before, .twitter .modal-footer:after{display:table;content:"";}
+.twitter .modal-footer:after{clear:both;}
+.twitter .modal-footer .btn{float:right;margin-left:5px;margin-bottom:0;}
+.twitter .tooltip{position:absolute;z-index:1020;display:block;visibility:visible;padding:5px;font-size:11px;opacity:0;filter:alpha(opacity=0);}
+.twitter .tooltip.in{opacity:0.8;filter:alpha(opacity=80);}
+.twitter .tooltip.top{margin-top:-2px;}
+.twitter .tooltip.right{margin-left:2px;}
+.twitter .tooltip.bottom{margin-top:2px;}
+.twitter .tooltip.left{margin-left:-2px;}
+.twitter .tooltip.top .tooltip-arrow{bottom:0;left:50%;margin-left:-5px;border-left:5px solid transparent;border-right:5px solid transparent;border-top:5px solid #000000;}
+.twitter .tooltip.left .tooltip-arrow{top:50%;right:0;margin-top:-5px;border-top:5px solid transparent;border-bottom:5px solid transparent;border-left:5px solid #000000;}
+.twitter .tooltip.bottom .tooltip-arrow{top:0;left:50%;margin-left:-5px;border-left:5px solid transparent;border-right:5px solid transparent;border-bottom:5px solid #000000;}
+.twitter .tooltip.right .tooltip-arrow{top:50%;left:0;margin-top:-5px;border-top:5px solid transparent;border-bottom:5px solid transparent;border-right:5px solid #000000;}
+.twitter .tooltip-inner{max-width:200px;padding:3px 8px;color:#ffffff;text-align:center;text-decoration:none;background-color:#000000;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;}
+.twitter .tooltip-arrow{position:absolute;width:0;height:0;}
+.twitter .popover{position:absolute;top:0;left:0;z-index:1010;display:none;padding:5px;}
+.twitter .popover.top{margin-top:-5px;}
+.twitter .popover.right{margin-left:5px;}
+.twitter .popover.bottom{margin-top:5px;}
+.twitter .popover.left{margin-left:-5px;}
+.twitter .popover.top .arrow{bottom:0;left:50%;margin-left:-5px;border-left:5px solid transparent;border-right:5px solid transparent;border-top:5px solid #000000;}
+.twitter .popover.right .arrow{top:50%;left:0;margin-top:-5px;border-top:5px solid transparent;border-bottom:5px solid transparent;border-right:5px solid #000000;}
+.twitter .popover.bottom .arrow{top:0;left:50%;margin-left:-5px;border-left:5px solid transparent;border-right:5px solid transparent;border-bottom:5px solid #000000;}
+.twitter .popover.left .arrow{top:50%;right:0;margin-top:-5px;border-top:5px solid transparent;border-bottom:5px solid transparent;border-left:5px solid #000000;}
+.twitter .popover .arrow{position:absolute;width:0;height:0;}
+.twitter .popover-inner{padding:3px;width:280px;overflow:hidden;background:#000000;background:rgba(0, 0, 0, 0.8);-webkit-border-radius:6px;-moz-border-radius:6px;border-radius:6px;-webkit-box-shadow:0 3px 7px rgba(0, 0, 0, 0.3);-moz-box-shadow:0 3px 7px rgba(0, 0, 0, 0.3);box-shadow:0 3px 7px rgba(0, 0, 0, 0.3);}
+.twitter .popover-title{padding:9px 15px;line-height:1;background-color:#f5f5f5;border-bottom:1px solid #eee;-webkit-border-radius:3px 3px 0 0;-moz-border-radius:3px 3px 0 0;border-radius:3px 3px 0 0;}
+.twitter .popover-content{padding:14px;background-color:#ffffff;-webkit-border-radius:0 0 3px 3px;-moz-border-radius:0 0 3px 3px;border-radius:0 0 3px 3px;-webkit-background-clip:padding-box;-moz-background-clip:padding-box;background-clip:padding-box;}
+.twitter .popover-content p, .twitter .popover-content ul, .twitter .popover-content ol{margin-bottom:0;}
+.twitter .thumbnails{margin-left:-20px;list-style:none;*zoom:1;}
+.twitter .thumbnails:before, .twitter .thumbnails:after{display:table;content:"";}
+.twitter .thumbnails:after{clear:both;}
+.twitter .thumbnails>li{float:left;margin:0 0 18px 20px;}
+.twitter .thumbnail{display:block;padding:4px;line-height:1;border:1px solid #ddd;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;-webkit-box-shadow:0 1px 1px rgba(0, 0, 0, 0.075);-moz-box-shadow:0 1px 1px rgba(0, 0, 0, 0.075);box-shadow:0 1px 1px rgba(0, 0, 0, 0.075);}
+.twitter a.thumbnail:hover{border-color:#0088cc;-webkit-box-shadow:0 1px 4px rgba(0, 105, 214, 0.25);-moz-box-shadow:0 1px 4px rgba(0, 105, 214, 0.25);box-shadow:0 1px 4px rgba(0, 105, 214, 0.25);}
+.twitter .thumbnail>img{display:block;max-width:100%;margin-left:auto;margin-right:auto;}
+.twitter .thumbnail .caption{padding:9px;}
+.twitter .label{padding:2px 4px 3px;font-size:11.049999999999999px;font-weight:bold;color:#ffffff;text-shadow:0 -1px 0 rgba(0, 0, 0, 0.25);background-color:#999999;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;}
+.twitter .label:hover{color:#ffffff;text-decoration:none;}
+.twitter .label-important{background-color:#b94a48;}
+.twitter .label-important:hover{background-color:#953b39;}
+.twitter .label-warning{background-color:#f89406;}
+.twitter .label-warning:hover{background-color:#c67605;}
+.twitter .label-success{background-color:#468847;}
+.twitter .label-success:hover{background-color:#356635;}
+.twitter .label-info{background-color:#3a87ad;}
+.twitter .label-info:hover{background-color:#2d6987;}
+undefinedundefined
+undefinedundefined
+undefinedundefined
+.twitter .progress{overflow:hidden;height:18px;margin-bottom:18px;background-color:#f7f7f7;background-image:-moz-linear-gradient(top, #f5f5f5, #f9f9f9);background-image:-ms-linear-gradient(top, #f5f5f5, #f9f9f9);background-image:-webkit-gradient(linear, 0 0, 0 100%, from(#f5f5f5), to(#f9f9f9));background-image:-webkit-linear-gradient(top, #f5f5f5, #f9f9f9);background-image:-o-linear-gradient(top, #f5f5f5, #f9f9f9);background-image:linear-gradient(top, #f5f5f5, #f9f9f9);background-repeat:repeat-x;filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f5f5f5', endColorstr='#f9f9f9', GradientType=0);-webkit-box-shadow:inset 0 1px 2px rgba(0, 0, 0, 0.1);-moz-box-shadow:inset 0 1px 2px rgba(0, 0, 0, 0.1);box-shadow:inset 0 1px 2px rgba(0, 0, 0, 0.1);-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;}
+.twitter .progress .bar{width:0%;height:18px;color:#ffffff;font-size:12px;text-align:center;text-shadow:0 -1px 0 rgba(0, 0, 0, 0.25);background-color:#0e90d2;background-image:-moz-linear-gradient(top, #149bdf, #0480be);background-image:-ms-linear-gradient(top, #149bdf, #0480be);background-image:-webkit-gradient(linear, 0 0, 0 100%, from(#149bdf), to(#0480be));background-image:-webkit-linear-gradient(top, #149bdf, #0480be);background-image:-o-linear-gradient(top, #149bdf, #0480be);background-image:linear-gradient(top, #149bdf, #0480be);background-repeat:repeat-x;filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#149bdf', endColorstr='#0480be', GradientType=0);-webkit-box-shadow:inset 0 -1px 0 rgba(0, 0, 0, 0.15);-moz-box-shadow:inset 0 -1px 0 rgba(0, 0, 0, 0.15);box-shadow:inset 0 -1px 0 rgba(0, 0, 0, 0.15);-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;-webkit-transition:width 0.6s ease;-moz-transition:width 0.6s ease;-ms-transition:width 0.6s ease;-o-transition:width 0.6s ease;transition:width 0.6s ease;}
+.twitter .progress-striped .bar{background-color:#62c462;background-image:-webkit-gradient(linear, 0 100%, 100% 0, color-stop(0.25, rgba(255, 255, 255, 0.15)), color-stop(0.25, transparent), color-stop(0.5, transparent), color-stop(0.5, rgba(255, 255, 255, 0.15)), color-stop(0.75, rgba(255, 255, 255, 0.15)), color-stop(0.75, transparent), to(transparent));background-image:-webkit-linear-gradient(-45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);background-image:-moz-linear-gradient(-45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);background-image:-ms-linear-gradient(-45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);background-image:-o-linear-gradient(-45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);background-image:linear-gradient(-45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);-webkit-background-size:40px 40px;-moz-background-size:40px 40px;-o-background-size:40px 40px;background-size:40px 40px;}
+.twitter .progress.active .bar{-webkit-animation:progress-bar-stripes 2s linear infinite;-moz-animation:progress-bar-stripes 2s linear infinite;animation:progress-bar-stripes 2s linear infinite;}
+.twitter .progress-danger .bar{background-color:#dd514c;background-image:-moz-linear-gradient(top, #ee5f5b, #c43c35);background-image:-ms-linear-gradient(top, #ee5f5b, #c43c35);background-image:-webkit-gradient(linear, 0 0, 0 100%, from(#ee5f5b), to(#c43c35));background-image:-webkit-linear-gradient(top, #ee5f5b, #c43c35);background-image:-o-linear-gradient(top, #ee5f5b, #c43c35);background-image:linear-gradient(top, #ee5f5b, #c43c35);background-repeat:repeat-x;filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ee5f5b', endColorstr='#c43c35', GradientType=0);}
+.twitter .progress-danger.progress-striped .bar{background-color:#ee5f5b;background-image:-webkit-gradient(linear, 0 100%, 100% 0, color-stop(0.25, rgba(255, 255, 255, 0.15)), color-stop(0.25, transparent), color-stop(0.5, transparent), color-stop(0.5, rgba(255, 255, 255, 0.15)), color-stop(0.75, rgba(255, 255, 255, 0.15)), color-stop(0.75, transparent), to(transparent));background-image:-webkit-linear-gradient(-45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);background-image:-moz-linear-gradient(-45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);background-image:-ms-linear-gradient(-45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);background-image:-o-linear-gradient(-45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);background-image:linear-gradient(-45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);}
+.twitter .progress-success .bar{background-color:#5eb95e;background-image:-moz-linear-gradient(top, #62c462, #57a957);background-image:-ms-linear-gradient(top, #62c462, #57a957);background-image:-webkit-gradient(linear, 0 0, 0 100%, from(#62c462), to(#57a957));background-image:-webkit-linear-gradient(top, #62c462, #57a957);background-image:-o-linear-gradient(top, #62c462, #57a957);background-image:linear-gradient(top, #62c462, #57a957);background-repeat:repeat-x;filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#62c462', endColorstr='#57a957', GradientType=0);}
+.twitter .progress-success.progress-striped .bar{background-color:#62c462;background-image:-webkit-gradient(linear, 0 100%, 100% 0, color-stop(0.25, rgba(255, 255, 255, 0.15)), color-stop(0.25, transparent), color-stop(0.5, transparent), color-stop(0.5, rgba(255, 255, 255, 0.15)), color-stop(0.75, rgba(255, 255, 255, 0.15)), color-stop(0.75, transparent), to(transparent));background-image:-webkit-linear-gradient(-45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);background-image:-moz-linear-gradient(-45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);background-image:-ms-linear-gradient(-45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);background-image:-o-linear-gradient(-45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);background-image:linear-gradient(-45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);}
+.twitter .progress-info .bar{background-color:#4bb1cf;background-image:-moz-linear-gradient(top, #5bc0de, #339bb9);background-image:-ms-linear-gradient(top, #5bc0de, #339bb9);background-image:-webkit-gradient(linear, 0 0, 0 100%, from(#5bc0de), to(#339bb9));background-image:-webkit-linear-gradient(top, #5bc0de, #339bb9);background-image:-o-linear-gradient(top, #5bc0de, #339bb9);background-image:linear-gradient(top, #5bc0de, #339bb9);background-repeat:repeat-x;filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#5bc0de', endColorstr='#339bb9', GradientType=0);}
+.twitter .progress-info.progress-striped .bar{background-color:#5bc0de;background-image:-webkit-gradient(linear, 0 100%, 100% 0, color-stop(0.25, rgba(255, 255, 255, 0.15)), color-stop(0.25, transparent), color-stop(0.5, transparent), color-stop(0.5, rgba(255, 255, 255, 0.15)), color-stop(0.75, rgba(255, 255, 255, 0.15)), color-stop(0.75, transparent), to(transparent));background-image:-webkit-linear-gradient(-45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);background-image:-moz-linear-gradient(-45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);background-image:-ms-linear-gradient(-45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);background-image:-o-linear-gradient(-45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);background-image:linear-gradient(-45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);}
+.twitter .accordion{margin-bottom:18px;}
+.twitter .accordion-group{margin-bottom:2px;border:1px solid #e5e5e5;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;}
+.twitter .accordion-heading{border-bottom:0;}
+.twitter .accordion-heading .accordion-toggle{display:block;padding:8px 15px;}
+.twitter .accordion-inner{padding:9px 15px;border-top:1px solid #e5e5e5;}
+.twitter .carousel{position:relative;margin-bottom:18px;line-height:1;}
+.twitter .carousel-inner{overflow:hidden;width:100%;position:relative;}
+.twitter .carousel .item{display:none;position:relative;-webkit-transition:0.6s ease-in-out left;-moz-transition:0.6s ease-in-out left;-ms-transition:0.6s ease-in-out left;-o-transition:0.6s ease-in-out left;transition:0.6s ease-in-out left;}
+.twitter .carousel .item>img{display:block;line-height:1;}
+.twitter .carousel .active, .twitter .carousel .next, .twitter .carousel .prev{display:block;}
+.twitter .carousel .active{left:0;}
+.twitter .carousel .next, .twitter .carousel .prev{position:absolute;top:0;width:100%;}
+.twitter .carousel .next{left:100%;}
+.twitter .carousel .prev{left:-100%;}
+.twitter .carousel .next.left, .twitter .carousel .prev.right{left:0;}
+.twitter .carousel .active.left{left:-100%;}
+.twitter .carousel .active.right{left:100%;}
+.twitter .carousel-control{position:absolute;top:40%;left:15px;width:40px;height:40px;margin-top:-20px;font-size:60px;font-weight:100;line-height:30px;color:#ffffff;text-align:center;background:#222222;border:3px solid #ffffff;-webkit-border-radius:23px;-moz-border-radius:23px;border-radius:23px;opacity:0.5;filter:alpha(opacity=50);}
+.twitter .carousel-control.right{left:auto;right:15px;}
+.twitter .carousel-control:hover{color:#ffffff;text-decoration:none;opacity:0.9;filter:alpha(opacity=90);}
+.twitter .carousel-caption{position:absolute;left:0;right:0;bottom:0;padding:10px 15px 5px;background:#333333;background:rgba(0, 0, 0, 0.75);}
+.twitter .carousel-caption h4, .twitter .carousel-caption p{color:#ffffff;}
+.twitter .hero-unit{padding:60px;margin-bottom:30px;background-color:#f5f5f5;-webkit-border-radius:6px;-moz-border-radius:6px;border-radius:6px;}
+.twitter .hero-unit h1{margin-bottom:0;font-size:60px;line-height:1;letter-spacing:-1px;}
+.twitter .hero-unit p{font-size:18px;font-weight:200;line-height:27px;}
+.twitter .pull-right{float:right;}
+.twitter .pull-left{float:left;}
+.twitter .hide{display:none;}
+.twitter .show{display:block;}
+.twitter .invisible{visibility:hidden;}

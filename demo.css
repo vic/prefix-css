@@ -1,0 +1,36 @@
+
+/* Css backgrounds for slate and cyborg themes */
+.twitter {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  color: black;
+  background-color: white;
+}
+
+.amelia {
+  background-color: #0F8790;
+  font-family: 'Cabin',Verdana,sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.slate {
+  color: #757C82;
+  background-color: #272B30;
+}
+
+.cyborg {
+  color: #999;
+  background-color: #121417;
+}
+
+.sample {
+  padding: 30px;
+  margin-bottom: 10px;
+}    
+
+.btn-primary {
+  margin-bottom: 30px;
+}
