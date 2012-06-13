@@ -38,3 +38,8 @@ $ prefix-css .slate  slate.min.css  > slate.prefixed.min.css
 
 [see it in action](http://vic.github.com/prefix-css)
 
+
+## Links
+ [Bootswatchr](http://bootswatchr.com/) Generate your own Bootstrap themes.
+ [Bootswatchr(http://bootswatch.com/) Some free Bootstrap themes.
+ [Bootstrap](http://twitter.github.com/bootstrap) Twitter Bootstrap
