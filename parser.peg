@@ -1,0 +1,44 @@
+// -*- js -*- 
+
+start = defs / none
+
+comment = "/*" (!"*/" .)+  "*/"
+
+none = [ \r\n]* { return }
+
+directive = "@" !"media" name:([^{;}]+)
+   body:(";" / b:body { return b.body })
+  { return { directive: "@"+name.join(''), body: body }}
+
+media = "@media" t:([^{;}]+) "{" none r:rules none "}"
+  { return { media: "@media"+t.join(''), rules: r }}
+
+def = media / directive / rule
+
+defs = d:(none e:def none { return e})* { return d }
+
+rules = m:(none r:rule none { return r })* { return m } 
+
+rule = s:selectors none b:body
+  { return { selectors: s.selectors, body: b.body }; }
+
+selector =
+  selector:([^@,{}\n\r]+) { return {selector: selector.join('')}; } 
+
+selectors =
+  first:selector other:("," s:selector { return s.selector })*
+  { return {selectors: [first.selector].concat(other) }; }
+
+body =
+  "{"
+
+  inner:(
+    (b:body { return b.body; }) /
+    c:([^{}]+) { return c.join(''); }
+  )+
+
+  "}"
+  { return {body: '{'+inner.join('')+'}'} }
+
+
+
