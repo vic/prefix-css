@@ -22,8 +22,8 @@ if you downloaded both themes as `cyborg.min.css` and `slate.min.css`, you could
  namespace each theme under a css-selector:
 
 ```shell
-$ prefix-css cyborg cyborg.min.css > cyborg.prefixed.min.css
-$ prefix-css slate  slate.min.css  > slate.prefixed.min.css
+$ prefix-css .cyborg cyborg.min.css > cyborg.prefixed.min.css
+$ prefix-css .slate  slate.min.css  > slate.prefixed.min.css
 ```
 
 ```html
