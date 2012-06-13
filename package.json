@@ -1,7 +1,7 @@
 {
   "name": "prefix-css",
   "description": "Prefix all rules in a css file with some css selector",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "author": "Victor Hugo Borja <vborja@apache.org> (http://github.com/vic)",
   "keywords": [
     "css",
