@@ -1,32 +1,32 @@
 {
- "name": "prefix-css",
- "description": "Prefix all rules in a css file with some css selector",
- "version": "0.0.1",
- "author": "Victor Hugo Borja <vborja@apache.org> (http://github.com/vic)",
- "keywords": [
-   "css",
-   "prefix"
- ],
- "preferGlobal": true,
- "bin": {
-   "prefix-css": "./index.js"
- },
- "repository": {
-   "type": "git",
-   "url": "git://github.com/vic/prefix-css.git"
- },
- "devDependencies": {
-   "coffee-script": "*",
-   "uglify-js": "*",
-   "jake": "*",
-   "pegjs": "*",
-   "should": "*",
-   "mocha": "*"
- },
- "dependencies": {
-   "commander": "0.6.1"
- },
- "engines": {
-   "node": "*"
- }
+  "name": "prefix-css",
+  "description": "Prefix all rules in a css file with some css selector",
+  "version": "0.0.2",
+  "author": "Victor Hugo Borja <vborja@apache.org> (http://github.com/vic)",
+  "keywords": [
+    "css",
+    "prefix"
+  ],
+  "preferGlobal": true,
+  "bin": {
+    "prefix-css": "./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/vic/prefix-css.git"
+  },
+  "devDependencies": {
+    "coffee-script": "*",
+    "uglify-js": "*",
+    "jake": "*",
+    "pegjs": "*",
+    "should": "*",
+    "mocha": "*"
+  },
+  "dependencies": {
+    "commander": "0.6.1"
+  },
+  "engines": {
+    "node": "*"
+  }
 }
