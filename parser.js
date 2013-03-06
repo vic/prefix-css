@@ -248,17 +248,8 @@ module.exports = (function(){
         
         pos0 = pos;
         result0 = [];
-        if (/^[ \r\n]/.test(input.charAt(pos))) {
-          result1 = input.charAt(pos);
-          pos++;
-        } else {
-          result1 = null;
-          if (reportFailures === 0) {
-            matchFailed("[ \\r\\n]");
-          }
-        }
-        while (result1 !== null) {
-          result0.push(result1);
+        result1 = parse_comment();
+        if (result1 === null) {
           if (/^[ \r\n]/.test(input.charAt(pos))) {
             result1 = input.charAt(pos);
             pos++;
@@ -266,6 +257,21 @@ module.exports = (function(){
             result1 = null;
             if (reportFailures === 0) {
               matchFailed("[ \\r\\n]");
+            }
+          }
+        }
+        while (result1 !== null) {
+          result0.push(result1);
+          result1 = parse_comment();
+          if (result1 === null) {
+            if (/^[ \r\n]/.test(input.charAt(pos))) {
+              result1 = input.charAt(pos);
+              pos++;
+            } else {
+              result1 = null;
+              if (reportFailures === 0) {
+                matchFailed("[ \\r\\n]");
+              }
             }
           }
         }

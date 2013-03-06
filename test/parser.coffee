@@ -120,5 +120,7 @@ describe 'Parser', ->
       me = parse fs.readFileSync('test/amelia.min.css').toString()
       me.length.should.equal 914
 
-
+    it 'should parse demo.css', ->
+      me = parse fs.readFileSync('test/demo.css').toString()
+      me.length.should.equal 6
 

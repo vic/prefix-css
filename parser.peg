@@ -4,7 +4,7 @@ start = defs / none
 
 comment = "/*" (!"*/" .)+  "*/"
 
-none = [ \r\n]* { return }
+none = (comment / [ \r\n])* { return }
 
 directive = "@" !"media" name:([^{;}]+)
    body:(";" / b:body { return b.body })
