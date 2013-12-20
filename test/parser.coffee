@@ -54,7 +54,13 @@ describe 'Parser', ->
       code = ".foo , bar"
       selectors(code).should.have.property 'selectors'
       selectors(code).selectors[0].should.equal ".foo "
-      selectors(code).selectors[1].should.equal " bar"
+      selectors(code).selectors[1].should.equal "bar"
+
+    it 'should parse two selector with new lines in between', ->
+      code = ".foo,\nbar"
+      selectors(code).should.have.property 'selectors'
+      selectors(code).selectors[0].should.equal ".foo"
+      selectors(code).selectors[1].should.equal "bar"
 
   describe '#parse rule', ->
     rule = (content)-> parser.parse content, "rule"
